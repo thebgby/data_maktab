@@ -1,0 +1,17 @@
+2024-11-04 10:23:45,758 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 09.2024 is empty
+2024-11-04 10:23:52,300 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 09.2024 is empty
+2024-11-04 10:23:53,035 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 09.2024 is empty
+2024-11-04 10:24:05,408 - ETL_Logger - WARNING | worksheet: Bank xizmati | sheets: 09.2024 is empty
+2024-11-04 10:24:23,736 - ETL_Logger - WARNING | worksheet: Kanstavar xodim un | sheets: 09.2024 is empty
+2024-11-04 10:24:35,203 - ETL_Logger - INFO | 09.2024 successfully extracted
+2024-11-04 10:25:10,225 - ETL_Logger - WARNING | worksheet: Kovorking | sheets: 10.2024 is empty
+2024-11-04 10:25:57,532 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 10.2024 is empty
+2024-11-04 10:25:58,137 - ETL_Logger - WARNING | worksheet: Arenda | sheets: 10.2024 is empty
+2024-11-04 10:25:58,766 - ETL_Logger - WARNING | worksheet: Internet | sheets: 10.2024 is empty
+2024-11-04 10:25:59,362 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 10.2024 is empty
+2024-11-04 10:26:00,711 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 10.2024 is empty
+2024-11-04 10:26:01,327 - ETL_Logger - WARNING | worksheet: Eletor yenergiya | sheets: 10.2024 is empty
+2024-11-04 10:26:35,900 - ETL_Logger - INFO | 10.2024 successfully extracted
+2024-11-04 10:26:35,901 - ETL_Logger - INFO | final dataframe shape: (919, 6)
+2024-11-04 10:26:35,903 - ETL_Logger - INFO | PNL data successfully extracted
+2024-11-04 10:26:42,994 - ETL_Logger - INFO | PNL data successfully loaded

@@ -1,1 +1,1 @@
-from .pnl import load_data
+from .pnl import load_data as pnl_load
