@@ -5,7 +5,7 @@ logger = logging.getLogger("ETL_Logger")
 logger.setLevel(logging.INFO)
 
 # Create handlers
-file_handler = logging.FileHandler("/home/roma/Documents/data/logs/etl_process.log", mode='a')
+file_handler = logging.FileHandler("/home/roma/Desktop/etl/logs/etl_process.log", mode='a')
 console_handler = logging.StreamHandler()
 
 # Define format

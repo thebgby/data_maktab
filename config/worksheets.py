@@ -12,3 +12,10 @@ pnl = {
         }
     }
 }
+
+maktab_royxat = {
+    "url": "https://docs.google.com/spreadsheets/d/1-Fu-Q6hYSR6X19zVV7WIJSXj4IfanyXFSgQ3AcXte7Q/edit?usp=sharing",
+    "maktab_royxat_months": [0, 1, 2],
+    "maktab_royxat_uqituvchilar_oyligi": [4],
+    "maktab_royxat_shaxzod_uchun": [7]
+}

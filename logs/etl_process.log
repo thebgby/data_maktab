@@ -15,3 +15,66 @@
 2024-11-04 10:26:35,901 - ETL_Logger - INFO | final dataframe shape: (919, 6)
 2024-11-04 10:26:35,903 - ETL_Logger - INFO | PNL data successfully extracted
 2024-11-04 10:26:42,994 - ETL_Logger - INFO | PNL data successfully loaded
+2024-11-04 15:24:41,668 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 09.2024 is empty
+2024-11-04 15:24:48,152 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 09.2024 is empty
+2024-11-04 15:24:49,545 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 09.2024 is empty
+2024-11-04 15:25:03,064 - ETL_Logger - WARNING | worksheet: Bank xizmati | sheets: 09.2024 is empty
+2024-11-04 15:25:21,924 - ETL_Logger - WARNING | worksheet: Kanstavar xodim un | sheets: 09.2024 is empty
+2024-11-04 15:25:34,179 - ETL_Logger - INFO | 09.2024 successfully extracted
+2024-11-04 15:26:10,238 - ETL_Logger - WARNING | worksheet: Kovorking | sheets: 10.2024 is empty
+2024-11-04 15:26:52,628 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 10.2024 is empty
+2024-11-04 15:26:53,243 - ETL_Logger - WARNING | worksheet: Arenda | sheets: 10.2024 is empty
+2024-11-04 15:26:53,960 - ETL_Logger - WARNING | worksheet: Internet | sheets: 10.2024 is empty
+2024-11-04 15:26:55,289 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 10.2024 is empty
+2024-11-04 15:26:56,621 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 10.2024 is empty
+2024-11-04 15:26:57,951 - ETL_Logger - WARNING | worksheet: Eletor yenergiya | sheets: 10.2024 is empty
+2024-11-04 15:27:33,985 - ETL_Logger - INFO | 10.2024 successfully extracted
+2024-11-04 15:27:33,986 - ETL_Logger - INFO | final dataframe shape: (919, 6)
+2024-11-04 15:27:33,987 - ETL_Logger - INFO | PNL data successfully extracted
+2024-11-04 15:29:47,573 - ETL_Logger - ERROR | error while loading PNL data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-11-04 15:31:11,390 - ETL_Logger - ERROR | error while extracting PNL data: 'default_sheets'
+2024-11-04 15:33:37,500 - ETL_Logger - INFO | 09.2024 successfully extracted
+2024-11-04 15:33:37,500 - ETL_Logger - INFO | final dataframe shape: (102, 6)
+2024-11-04 15:33:37,502 - ETL_Logger - INFO | PNL data successfully extracted
+2024-11-04 15:35:52,117 - ETL_Logger - ERROR | error while loading PNL data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-11-09 12:14:49,809 - ETL_Logger - ERROR | error gspread connection: [Errno 2] No such file or directory: '/home/roma/Documents/data/config/key.json'
+2024-11-11 04:42:36,738 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 09.2024 is empty
+2024-11-11 04:42:43,597 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 09.2024 is empty
+2024-11-11 04:42:44,314 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 09.2024 is empty
+2024-11-11 04:42:57,730 - ETL_Logger - WARNING | worksheet: Bank xizmati | sheets: 09.2024 is empty
+2024-11-11 04:43:19,336 - ETL_Logger - WARNING | worksheet: Kanstavar xodim un | sheets: 09.2024 is empty
+2024-11-11 04:43:31,306 - ETL_Logger - INFO | 09.2024 successfully extracted
+2024-11-11 04:45:04,203 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 10.2024 is empty
+2024-11-11 04:45:06,035 - ETL_Logger - WARNING | worksheet: Arenda | sheets: 10.2024 is empty
+2024-11-11 04:45:12,895 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 10.2024 is empty
+2024-11-11 04:45:13,511 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 10.2024 is empty
+2024-11-11 04:45:57,840 - ETL_Logger - INFO | 10.2024 successfully extracted
+2024-11-11 04:45:57,840 - ETL_Logger - INFO | final dataframe shape: (930, 6)
+2024-11-11 04:45:57,842 - ETL_Logger - INFO | PNL data successfully extracted
+2024-11-11 04:45:57,929 - ETL_Logger - INFO | Database Connection Successful
+2024-11-11 04:45:58,031 - ETL_Logger - INFO | PNL data successfully loaded
+2024-11-11 04:46:05,333 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-11 04:46:05,334 - ETL_Logger - INFO | Database Connection Successful
+2024-11-11 04:46:05,436 - ETL_Logger - INFO | [maktab royxat] data successfully loaded
+2024-11-11 06:01:12,965 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-11 06:01:43,627 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-11 06:01:43,653 - ETL_Logger - INFO | Database Connection Successful
+2024-11-11 06:01:43,674 - ETL_Logger - ERROR | error while loading [maktab royxat] data: too many values to unpack (expected 2)
+2024-11-11 06:03:37,750 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-11 06:03:37,774 - ETL_Logger - INFO | Database Connection Successful
+2024-11-11 06:03:37,825 - ETL_Logger - ERROR | error while loading [maktab royxat] data: (psycopg2.errors.UndefinedColumn) column "0" of relation "maktab_royxat_uqituvchilar_oyligi" does not exist
+LINE 1: INSERT INTO maktab_royxat_uqituvchilar_oyligi ("0", "1", "2"...
+                                                       ^
+
+[SQL: INSERT INTO maktab_royxat_uqituvchilar_oyligi ("0", "1", "2") VALUES (%(0__0)s, %(1__0)s, %(2__0)s), (%(0__1)s, %(1__1)s, %(2__1)s), (%(0__2)s, %(1__2)s, %(2__2)s), (%(0__3)s, %(1__3)s, %(2__3)s), (%(0__4)s, %(1__4)s, %(2__4)s), (%(0__5)s, %(1__5)s,  ... 1472 characters truncated ... 0__48)s, %(1__48)s, %(2__48)s), (%(0__49)s, %(1__49)s, %(2__49)s), (%(0__50)s, %(1__50)s, %(2__50)s)]
+[parameters: {'1__0': 10000000.0, '2__0': '09.2024', '0__0': 'Матчанова Руза Батировна', '1__1': 10000000.0, '2__1': '09.2024', '0__1': 'Ибрагимова Назокат Бахтиёровна', '1__2': 10000000.0, '2__2': '09.2024', '0__2': 'Аллаберганова Назокат Аминбаевна ', '1__3': 7000000.0, '2__3': '09.2024', '0__3': 'Вафаева Озода Азадовна', '1__4': 7000000.0, '2__4': '09.2024', '0__4': 'Атаева Зулфия Зарифовна', '1__5': 10000000.0, '2__5': '09.2024', '0__5': 'Хусанова Лола Рустамбековна', '1__6': 10000000.0, '2__6': '09.2024', '0__6': 'Каландарова Зебинисо Эгамбердиевна', '1__7': 6796000.0, '2__7': '09.2024', '0__7': 'Садуллаева Динара Атабековна', '1__8': 5086000.0, '2__8': '09.2024', '0__8': 'Абдуллаева Феруза Айбековна', '1__9': 10678000.0, '2__9': '09.2024', '0__9': 'Матчанов Азизбек Умирбекович', '1__10': 9140000.0, '2__10': '09.2024', '0__10': 'Ражаббаева Авазжон Кучкаровна ', '1__11': 6270000.0, '2__11': '09.2024', '0__11': 'Бабажанова Ленинза Зинатбаевна ', '1__12': 4356000.0, '2__12': '09.2024', '0__12': 'Аминов Дониёр Рашидович ', '1__13': 4113000.0, '2__13': '09.2024', '0__13': 'Киличева Сайёра Рустамовна ', '1__14': 11604000.0, '2__14': '09.2024', '0__14': 'Мадрахимов Отабек Фарходович ', '1__15': 10098000.0, '2__15': '09.2024', '0__15': 'Хажиева Оймонжон Тахировна ', '1__16': 9476000.0, '2__16': '09.2024' ... 53 parameters truncated ... '2__34': '09.2024', '0__34': 'Жумазода Шохидаи Жалолиддиновна ', '1__35': 3000000.0, '2__35': '09.2024', '0__35': 'Хажиева Райхон Тахировна ', '1__36': 3000000.0, '2__36': '09.2024', '0__36': 'Якубова Машхура Гайратовна ', '1__37': 1500000.0, '2__37': '09.2024', '0__37': 'Шокирова Дилноза Сардоровна ', '1__38': 5200000.0, '2__38': '09.2024', '0__38': 'Куранбаева Машхура Маримбаевна', '1__39': 4500000.0, '2__39': '09.2024', '0__39': 'Юсупбаева Шахнозахон Эргашевна', '1__40': 7500000.0, '2__40': '09.2024', '0__40': 'Латипов Гайрат Сабирович ', '1__41': 3445000.0, '2__41': '09.2024', '0__41': 'Атаджанова Элмира Уткировна ', '1__42': 4500000.0, '2__42': '09.2024', '0__42': 'Фаёзова Нилуфар Сайфитдиновна', '1__43': 7000000.0, '2__43': '09.2024', '0__43': 'Атабаев Камрон Норбекович ', '1__44': 3000000.0, '2__44': '09.2024', '0__44': 'Мадраимова Бибихадича Улугбековна', '1__45': 3400000.0, '2__45': '09.2024', '0__45': 'Ходжаева Санобар Каримбаевна', '1__46': 4655000.0, '2__46': '09.2024', '0__46': 'Тураева Шохида Шухратовна ', '1__47': None, '2__47': '09.2024', '0__47': 'Феруза Баходировна', '1__48': 2068182.0, '2__48': '09.2024', '0__48': 'Бобожонова Дилфуза', '1__49': None, '2__49': '09.2024', '0__49': 'Машарипова Хабиба', '1__50': None, '2__50': '09.2024', '0__50': 'Бекмаматова Мунаввара'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-11-11 06:04:37,603 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-11 06:04:37,624 - ETL_Logger - INFO | Database Connection Successful
+2024-11-11 06:04:37,674 - ETL_Logger - INFO | [maktab royxat] data successfully loaded

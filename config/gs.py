@@ -1,7 +1,7 @@
 import gspread
 from logs import logger
 
-def gs_connection(sheets_url, cred='/home/roma/Documents/data/config/key.json'):
+def gs_connection(sheets_url, cred='/home/roma/Desktop/etl/config/key.json'):
     try:
         sheet = gspread.service_account(cred)
         sheet = sheet.open_by_url(sheets_url)
