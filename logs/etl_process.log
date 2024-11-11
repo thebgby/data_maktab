@@ -78,3 +78,13 @@ LINE 1: INSERT INTO maktab_royxat_uqituvchilar_oyligi ("0", "1", "2"...
 2024-11-11 06:04:37,603 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
 2024-11-11 06:04:37,624 - ETL_Logger - INFO | Database Connection Successful
 2024-11-11 06:04:37,674 - ETL_Logger - INFO | [maktab royxat] data successfully loaded
+2024-11-11 15:11:05,151 - ETL_Logger - ERROR | error gspread connection: [Errno 2] No such file or directory: './key.json'
+2024-11-11 15:11:05,152 - ETL_Logger - ERROR | error while extracting [maktab royxat] data: 'NoneType' object has no attribute 'get_worksheet'
+2024-11-11 15:11:13,900 - ETL_Logger - ERROR | error gspread connection: [Errno 2] No such file or directory: 'key.json'
+2024-11-11 15:11:13,901 - ETL_Logger - ERROR | error while extracting [maktab royxat] data: 'NoneType' object has no attribute 'get_worksheet'
+2024-11-11 15:13:25,594 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-11 15:13:25,661 - ETL_Logger - INFO | Database Connection Successful
+2024-11-11 15:13:25,742 - ETL_Logger - INFO | [maktab royxat] data successfully loaded
+2024-11-11 15:14:05,973 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-11 15:14:05,994 - ETL_Logger - INFO | Database Connection Successful
+2024-11-11 15:14:06,046 - ETL_Logger - INFO | [maktab royxat] data successfully loaded

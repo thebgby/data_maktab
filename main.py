@@ -8,19 +8,19 @@ from config import pnl, maktab_royxat
 from logs import logger
 
 # pnl etl
-# pnl_data = None
-# try:
-#     pnl_data = pnl_extract(pnl)
-#     logger.info(f"PNL data successfully extracted")
-# except Exception as e:
-#     logger.error(f"error while extracting PNL data: {e}")
+pnl_data = None
+try:
+    pnl_data = pnl_extract(pnl)
+    logger.info(f"PNL data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting PNL data: {e}")
 
-# if not pnl_data.empty:
-#     try:
-#         pnl_load(pnl_data)
-#         logger.info(f"PNL data successfully loaded")
-#     except Exception as e:
-#         logger.error(f"error while loading PNL data: {e}")
+if not pnl_data.empty:
+    try:
+        pnl_load(pnl_data)
+        logger.info(f"PNL data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading PNL data: {e}")
 
 # maktab royxat list (months)  etl
 maktab_royxat_months_data = None
