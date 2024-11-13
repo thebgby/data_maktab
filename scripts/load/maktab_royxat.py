@@ -23,7 +23,8 @@ def load_data(data: Dict[str, df]):
             kirim_order text,
             tushum_2 int,
             qarzi text,
-            ortiqcha int
+            ortiqcha int,
+            worksheet_name text
         );
             
         TRUNCATE TABLE maktab_royxat_list;

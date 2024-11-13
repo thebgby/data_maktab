@@ -19,3 +19,10 @@ maktab_royxat = {
     "maktab_royxat_uqituvchilar_oyligi": [4],
     "maktab_royxat_shaxzod_uchun": [7]
 }
+
+maktab_kassa = {
+    "url": "https://docs.google.com/spreadsheets/d/1sr9Az87PNmjjjo3YzedB3AKu1BI0t2FyR_PmNOZHTEU/edit?usp=sharing",
+    "maktab_kassa_months": [0, 1, 2],
+    "maktab_kassa_gazel_tulovi": [5],
+    "maktab_kassa_qaytarilgan_tulovlar": [7]
+}

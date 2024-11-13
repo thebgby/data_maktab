@@ -88,3 +88,113 @@ LINE 1: INSERT INTO maktab_royxat_uqituvchilar_oyligi ("0", "1", "2"...
 2024-11-11 15:14:05,973 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
 2024-11-11 15:14:05,994 - ETL_Logger - INFO | Database Connection Successful
 2024-11-11 15:14:06,046 - ETL_Logger - INFO | [maktab royxat] data successfully loaded
+2024-11-12 22:17:28,061 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 09.2024 is empty
+2024-11-12 22:17:35,332 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 09.2024 is empty
+2024-11-12 22:17:36,136 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 09.2024 is empty
+2024-11-12 22:17:49,362 - ETL_Logger - WARNING | worksheet: Bank xizmati | sheets: 09.2024 is empty
+2024-11-12 22:18:08,206 - ETL_Logger - WARNING | worksheet: Kanstavar xodim un | sheets: 09.2024 is empty
+2024-11-12 22:18:20,686 - ETL_Logger - INFO | 09.2024 successfully extracted
+2024-11-12 22:19:54,400 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 10.2024 is empty
+2024-11-12 22:19:55,725 - ETL_Logger - WARNING | worksheet: Arenda | sheets: 10.2024 is empty
+2024-11-12 22:20:05,349 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 10.2024 is empty
+2024-11-12 22:20:06,782 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 10.2024 is empty
+2024-11-12 22:20:50,090 - ETL_Logger - INFO | 10.2024 successfully extracted
+2024-11-12 22:20:50,090 - ETL_Logger - INFO | final dataframe shape: (930, 6)
+2024-11-12 22:20:50,092 - ETL_Logger - INFO | PNL data successfully extracted
+2024-11-12 22:20:50,182 - ETL_Logger - INFO | Database Connection Successful
+2024-11-12 22:20:50,275 - ETL_Logger - INFO | PNL data successfully loaded
+2024-11-12 22:21:01,469 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-12 22:21:01,469 - ETL_Logger - INFO | Database Connection Successful
+2024-11-12 22:21:01,585 - ETL_Logger - ERROR | error while loading [maktab royxat] data: (psycopg2.errors.UndefinedColumn) column "11" of relation "maktab_royxat_months" does not exist
+LINE 1: ..., tushum, kirim_order, tushum_2, qarzi, ortiqcha, "11") VALU...
+                                                             ^
+
+[SQL: INSERT INTO maktab_royxat_months (fish, sinfi, tili, telefon, sana, chegirma, tushum, kirim_order, tushum_2, qarzi, ortiqcha, "11") VALUES (%(fish__0)s, %(sinfi__0)s, %(tili__0)s, %(telefon__0)s, %(sana__0)s, %(chegirma__0)s, %(tushum__0)s, %(kirim_o ... 184485 characters truncated ... hum__902)s, %(kirim_order__902)s, %(tushum_2__902)s, %(qarzi__902)s, %(ortiqcha__902)s, %(11__902)s)]
+[parameters: {'qarzi__0': 'Raschot', 'chegirma__0': 0, 'sana__0': datetime.datetime(2024, 5, 14, 0, 0), 'telefon__0': '97 299 44 44', 'tushum_2__0': 4500000, 'ortiqcha__0': 0, '11__0': '09.2024', 'tili__0': 'Rus', 'kirim_order__0': '4, 544', 'sinfi__0': '1-sinf', 'fish__0': 'Odilbekova Shahnura Jamshidovna', 'tushum__0': 4500000, 'qarzi__1': 'Raschot', 'chegirma__1': 0, 'sana__1': datetime.datetime(2024, 5, 18, 0, 0), 'telefon__1': '97 514 50 05', 'tushum_2__1': 4500000, 'ortiqcha__1': 0, '11__1': '09.2024', 'tili__1': 'Rus', 'kirim_order__1': '6, 284', 'sinfi__1': '1-sinf', 'fish__1': 'Hudaynazarova Safina Sarvarbekovna', 'tushum__1': 4500000, 'qarzi__2': 'Raschot', 'chegirma__2': 0, 'sana__2': datetime.datetime(2024, 6, 4, 0, 0), 'telefon__2': '97 166 03 33', 'tushum_2__2': 4500000, 'ortiqcha__2': 0, '11__2': '09.2024', 'tili__2': 'Rus', 'kirim_order__2': '32, 302', 'sinfi__2': '1-sinf', 'fish__2': "Masharipova Esmira Ulug'bekovna", 'tushum__2': 4500000, 'qarzi__3': 'Raschot', 'chegirma__3': 0, 'sana__3': datetime.datetime(2024, 6, 4, 0, 0), 'telefon__3': '99 507 20 99', 'tushum_2__3': 4500000, 'ortiqcha__3': 0, '11__3': '09.2024', 'tili__3': 'Rus', 'kirim_order__3': '34, 377', 'sinfi__3': '1-sinf', 'fish__3': 'Satimboyev Islombek Umidbekovich', 'tushum__3': 4500000, 'qarzi__4': "Ortiqcha to'lov", 'chegirma__4': 450000 ... 10736 parameters truncated ... 'fish__898': "O'rinov Sulaymon Obod o'g'li", 'tushum__898': 4500000, 'qarzi__899': 'Raschot', 'chegirma__899': 0, 'sana__899': datetime.datetime(2024, 10, 11, 0, 0), 'telefon__899': '91 431 07 70  973621686', 'tushum_2__899': 4500000, 'ortiqcha__899': 0, '11__899': '11.2024', 'tili__899': "O'zbek", 'kirim_order__899': '809, 859, 1092', 'sinfi__899': '8-sinf', 'fish__899': "Orifjanov O'lmasbek Umid o'g'li ", 'tushum__899': 4500000, 'qarzi__900': 'Raschot', 'chegirma__900': 0, 'sana__900': datetime.datetime(2024, 11, 4, 0, 0), 'telefon__900': '97 605 04 01', 'tushum_2__900': 4500000, 'ortiqcha__900': 0, '11__900': '11.2024', 'tili__900': "O'zbek", 'kirim_order__900': '932', 'sinfi__900': '8-sinf', 'fish__900': 'Alimova Oygul Umid Qizi ', 'tushum__900': 4500000, 'qarzi__901': '2\xa0000\xa0000', 'chegirma__901': 0, 'sana__901': datetime.datetime(2024, 11, 9, 0, 0), 'telefon__901': '91 426 83 82', 'tushum_2__901': 2500000, 'ortiqcha__901': 0, '11__901': '11.2024', 'tili__901': "O'zbek", 'kirim_order__901': '1050', 'sinfi__901': '8-sinf', 'fish__901': "Sapayev Boboxon Matnazar O'g'li ", 'tushum__901': 4500000, 'qarzi__902': 'Imtiyozli Raschot', 'chegirma__902': 415000, 'sana__902': datetime.datetime(2024, 11, 6, 0, 0), 'telefon__902': '97 458 72 70', 'tushum_2__902': 4085000, 'ortiqcha__902': 0, '11__902': '11.2024', 'tili__902': "O'zbek", 'kirim_order__902': '987', 'sinfi__902': '8-sinf', 'fish__902': 'Odilbekova Shaxzoda Otabek qizi', 'tushum__902': 4085000}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-11-12 22:23:32,914 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 09.2024 is empty
+2024-11-12 22:23:40,082 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 09.2024 is empty
+2024-11-12 22:23:40,900 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 09.2024 is empty
+2024-11-12 22:23:53,312 - ETL_Logger - WARNING | worksheet: Bank xizmati | sheets: 09.2024 is empty
+2024-11-12 22:24:13,160 - ETL_Logger - WARNING | worksheet: Kanstavar xodim un | sheets: 09.2024 is empty
+2024-11-12 22:24:25,027 - ETL_Logger - INFO | 09.2024 successfully extracted
+2024-11-12 22:25:57,711 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 10.2024 is empty
+2024-11-12 22:25:59,759 - ETL_Logger - WARNING | worksheet: Arenda | sheets: 10.2024 is empty
+2024-11-12 22:26:06,415 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 10.2024 is empty
+2024-11-12 22:26:07,840 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 10.2024 is empty
+2024-11-12 22:26:51,815 - ETL_Logger - INFO | 10.2024 successfully extracted
+2024-11-12 22:26:51,815 - ETL_Logger - INFO | final dataframe shape: (930, 6)
+2024-11-12 22:26:51,817 - ETL_Logger - INFO | PNL data successfully extracted
+2024-11-12 22:26:51,870 - ETL_Logger - INFO | Database Connection Successful
+2024-11-12 22:26:51,962 - ETL_Logger - INFO | PNL data successfully loaded
+2024-11-12 22:26:59,690 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-12 22:26:59,691 - ETL_Logger - INFO | Database Connection Successful
+2024-11-12 22:26:59,811 - ETL_Logger - INFO | [maktab royxat] data successfully loaded
+2024-11-13 01:54:28,839 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 09.2024 is empty
+2024-11-13 01:54:36,622 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 09.2024 is empty
+2024-11-13 01:54:38,055 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 09.2024 is empty
+2024-11-13 01:54:50,958 - ETL_Logger - WARNING | worksheet: Bank xizmati | sheets: 09.2024 is empty
+2024-11-13 01:55:10,107 - ETL_Logger - WARNING | worksheet: Kanstavar xodim un | sheets: 09.2024 is empty
+2024-11-13 01:55:22,579 - ETL_Logger - INFO | 09.2024 successfully extracted
+2024-11-13 01:56:55,273 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 10.2024 is empty
+2024-11-13 01:56:55,880 - ETL_Logger - WARNING | worksheet: Arenda | sheets: 10.2024 is empty
+2024-11-13 01:57:02,119 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 10.2024 is empty
+2024-11-13 01:57:02,703 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 10.2024 is empty
+2024-11-13 01:57:44,210 - ETL_Logger - INFO | 10.2024 successfully extracted
+2024-11-13 01:57:44,210 - ETL_Logger - INFO | final dataframe shape: (930, 6)
+2024-11-13 01:57:44,211 - ETL_Logger - INFO | PNL data successfully extracted
+2024-11-13 01:57:44,252 - ETL_Logger - INFO | Database Connection Successful
+2024-11-13 01:57:44,322 - ETL_Logger - INFO | PNL data successfully loaded
+2024-11-13 01:57:56,411 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-13 01:57:56,412 - ETL_Logger - INFO | Database Connection Successful
+2024-11-13 01:57:56,540 - ETL_Logger - INFO | [maktab royxat] data successfully loaded
+2024-11-13 01:57:57,299 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:03:18,967 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 09.2024 is empty
+2024-11-13 02:03:26,850 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 09.2024 is empty
+2024-11-13 02:03:28,182 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 09.2024 is empty
+2024-11-13 02:03:41,596 - ETL_Logger - WARNING | worksheet: Bank xizmati | sheets: 09.2024 is empty
+2024-11-13 02:03:59,721 - ETL_Logger - WARNING | worksheet: Kanstavar xodim un | sheets: 09.2024 is empty
+2024-11-13 02:04:11,283 - ETL_Logger - INFO | 09.2024 successfully extracted
+2024-11-13 02:05:42,845 - ETL_Logger - WARNING | worksheet: Daromad soligi | sheets: 10.2024 is empty
+2024-11-13 02:05:44,652 - ETL_Logger - WARNING | worksheet: Arenda | sheets: 10.2024 is empty
+2024-11-13 02:05:52,156 - ETL_Logger - WARNING | worksheet: Nakd pul PK utkazildi | sheets: 10.2024 is empty
+2024-11-13 02:05:53,351 - ETL_Logger - WARNING | worksheet: Nakd pul PK dan olingan | sheets: 10.2024 is empty
+2024-11-13 02:06:35,132 - ETL_Logger - INFO | 10.2024 successfully extracted
+2024-11-13 02:06:35,132 - ETL_Logger - INFO | final dataframe shape: (930, 6)
+2024-11-13 02:06:35,134 - ETL_Logger - INFO | PNL data successfully extracted
+2024-11-13 02:06:35,194 - ETL_Logger - INFO | Database Connection Successful
+2024-11-13 02:06:35,306 - ETL_Logger - INFO | PNL data successfully loaded
+2024-11-13 02:06:47,255 - ETL_Logger - INFO | [maktab royxat] data successfully extracted
+2024-11-13 02:06:47,256 - ETL_Logger - INFO | Database Connection Successful
+2024-11-13 02:06:47,384 - ETL_Logger - INFO | [maktab royxat] data successfully loaded
+2024-11-13 02:06:48,953 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:16:00,214 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:16:28,380 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:16:42,913 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:18:08,206 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:18:44,867 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:18:44,916 - ETL_Logger - INFO | Database Connection Successful
+2024-11-13 02:18:45,005 - ETL_Logger - ERROR | error while loading [maktab kassa] data: (psycopg2.errors.UndefinedColumn) column "8" of relation "maktab_kassa_months" does not exist
+LINE 1: ...li, sinfi_2, sana, num_column, tolov_turi, summa, "8") VALUE...
+                                                             ^
+
+[SQL: INSERT INTO maktab_kassa_months (fio, sinfi, tili, sinfi_2, sana, num_column, tolov_turi, summa, "8") VALUES (%(fio__0)s, %(sinfi__0)s, %(tili__0)s, %(sinfi_2__0)s, %(sana__0)s, %(num_column__0)s, %(tolov_turi__0)s, %(summa__0)s, %(8__0)s), (%(fio__1 ... 148767 characters truncated ... sinfi_2__999)s, %(sana__999)s, %(num_column__999)s, %(tolov_turi__999)s, %(summa__999)s, %(8__999)s)]
+[parameters: {'sinfi__0': '2-sinf', 'tolov_turi__0': 'Hisob raqam', 'summa__0': 4275000.0, 'sinfi_2__0': '2A', 'tili__0': 'Rus', 'fio__0': "O'ktamova E'zoza Xamdam qizi", '8__0': '11.2024', 'sana__0': datetime.datetime(2024, 11, 1, 0, 0), 'num_column__0': 898.0, 'sinfi__1': '8-sinf', 'tolov_turi__1': 'Hisob raqam', 'summa__1': 4275000.0, 'sinfi_2__1': '8A', 'tili__1': 'Rus', 'fio__1': "O'ktamova Ruhshona Xamdam qizi ", '8__1': '11.2024', 'sana__1': datetime.datetime(2024, 11, 1, 0, 0), 'num_column__1': 899.0, 'sinfi__2': '5-sinf', 'tolov_turi__2': 'Ter/Uzkard', 'summa__2': 4500000.0, 'sinfi_2__2': '5C', 'tili__2': "O'zbek", 'fio__2': 'Muratov Mirlan Diyorbekovich', '8__2': '11.2024', 'sana__2': datetime.datetime(2024, 11, 1, 0, 0), 'num_column__2': 900.0, 'sinfi__3': '1-sinf', 'tolov_turi__3': 'Naqd', 'summa__3': 1500000.0, 'sinfi_2__3': '1B', 'tili__3': 'Rus', 'fio__3': 'Davletova Muslima', '8__3': '11.2024', 'sana__3': datetime.datetime(2024, 11, 1, 0, 0), 'num_column__3': 901.0, 'sinfi__4': '1-sinf', 'tolov_turi__4': 'Plastik', 'summa__4': 4500000.0, 'sinfi_2__4': '1A', 'tili__4': 'Rus', 'fio__4': 'Alisherova Zarina Muxammadovna', '8__4': '11.2024', 'sana__4': datetime.datetime(2024, 11, 1, 0, 0), 'num_column__4': 902.0, 'sinfi__5': '1-sinf', 'tolov_turi__5': 'Plastik', 'summa__5': 4300000.0, 'sinfi_2__5': '1 B', 'tili__5': 'Rus' ... 8900 parameters truncated ... 'tili__994': 'Rus', 'fio__994': 'Yusupov Abdullaziz Temurbekovich', '8__994': '10.2024', 'sana__994': datetime.datetime(2024, 10, 10, 0, 0), 'num_column__994': 798.0, 'sinfi__995': '6-sinf', 'tolov_turi__995': 'Plastik', 'summa__995': 4500000.0, 'sinfi_2__995': '6 B', 'tili__995': "O'zbek", 'fio__995': "Baxramov Temurbek Otabek o'g'li", '8__995': '10.2024', 'sana__995': datetime.datetime(2024, 10, 10, 0, 0), 'num_column__995': 799.0, 'sinfi__996': '6-sinf', 'tolov_turi__996': 'Plastik', 'summa__996': 1500000.0, 'sinfi_2__996': '6 A', 'tili__996': 'Rus', 'fio__996': 'Muratova Nafisa Jaxongirovna', '8__996': '10.2024', 'sana__996': datetime.datetime(2024, 10, 10, 0, 0), 'num_column__996': 800.0, 'sinfi__997': '3-sinf', 'tolov_turi__997': 'Plastik', 'summa__997': 1500000.0, 'sinfi_2__997': '3 A', 'tili__997': 'Rus', 'fio__997': 'Muratov Islombek Jaxongirovich', '8__997': '10.2024', 'sana__997': datetime.datetime(2024, 10, 10, 0, 0), 'num_column__997': 801.0, 'sinfi__998': '1-sinf', 'tolov_turi__998': 'Naqd', 'summa__998': 4500000.0, 'sinfi_2__998': '1 B', 'tili__998': 'Rus', 'fio__998': 'Amanbayev Mustafo Muradbekovich ', '8__998': '10.2024', 'sana__998': datetime.datetime(2024, 10, 10, 0, 0), 'num_column__998': 802.0, 'sinfi__999': '6-sinf', 'tolov_turi__999': 'Naqd', 'summa__999': 2000000.0, 'sinfi_2__999': '6 A', 'tili__999': 'Rus', 'fio__999': 'Baxromova Donoxon Sanjarovna ', '8__999': '10.2024', 'sana__999': datetime.datetime(2024, 10, 10, 0, 0), 'num_column__999': 803.0}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-11-13 02:19:42,927 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:19:42,985 - ETL_Logger - INFO | Database Connection Successful
+2024-11-13 02:19:43,101 - ETL_Logger - INFO | maktab_kassa_months loaded
+2024-11-13 02:19:43,111 - ETL_Logger - INFO | maktab_kassa_gazel_tulovi loaded
+2024-11-13 02:19:43,120 - ETL_Logger - ERROR | error while loading [maktab kassa] data: (psycopg2.errors.UndefinedColumn) column "8" of relation "maktab_kassa_qaytarilgan_tulovlar" does not exist
+LINE 1: ..., telefon, sana, order_column, tolov_turi, summa, "8") VALUE...
+                                                             ^
+
+[SQL: INSERT INTO maktab_kassa_qaytarilgan_tulovlar (fio, sinfi, tili, telefon, sana, order_column, tolov_turi, summa, "8") VALUES (%(fio__0)s, %(sinfi__0)s, %(tili__0)s, %(telefon__0)s, %(sana__0)s, %(order_column__0)s, %(tolov_turi__0)s, %(summa__0)s, %( ... 7834 characters truncated ... , %(telefon__56)s, %(sana__56)s, %(order_column__56)s, %(tolov_turi__56)s, %(summa__56)s, %(8__56)s)]
+[parameters: {'fio__0': 'Odilbekova Yulduz', '8__0': '28.05.2024', 'tili__0': None, 'sana__0': datetime.datetime(2024, 5, 28, 0, 0), 'summa__0': 2500000.0, 'sinfi__0': None, 'tolov_turi__0': 'Naqd', 'telefon__0': None, 'order_column__0': '27', 'fio__1': 'Elnur Baxodirov', '8__1': '30.05.2024', 'tili__1': None, 'sana__1': datetime.datetime(2024, 5, 30, 0, 0), 'summa__1': 2500000.0, 'sinfi__1': None, 'tolov_turi__1': 'Plastik', 'telefon__1': None, 'order_column__1': '30', 'fio__2': 'Babajanov Jaloliddin', '8__2': '07.06.2024', 'tili__2': None, 'sana__2': datetime.datetime(2024, 6, 7, 0, 0), 'summa__2': 2500000.0, 'sinfi__2': None, 'tolov_turi__2': 'Plastik', 'telefon__2': None, 'order_column__2': '44', 'fio__3': "O'ktamboyeva Gulasal", '8__3': '12.06.2024', 'tili__3': "O'zbek", 'sana__3': datetime.datetime(2024, 6, 12, 0, 0), 'summa__3': 2500000.0, 'sinfi__3': '6-sinif', 'tolov_turi__3': 'Plastik', 'telefon__3': None, 'order_column__3': '52', 'fio__4': 'Beymamatov Jahongir', '8__4': '20.06.2024', 'tili__4': None, 'sana__4': datetime.datetime(2024, 6, 20, 0, 0), 'summa__4': 2500000.0, 'sinfi__4': None, 'tolov_turi__4': 'Naqd', 'telefon__4': None, 'order_column__4': '73', 'fio__5': "O'ktamov Zufar", '8__5': '24.06.2024', 'tili__5': 'Rus', 'sana__5': datetime.datetime(2024, 6, 24, 0, 0), 'summa__5': 500000.0 ... 413 parameters truncated ... 'summa__51': 0.0, 'sinfi__51': '1-sinf', 'tolov_turi__51': '4\xa0050\xa0000', 'telefon__51': '22.06.2024', 'order_column__51': '69, 358', 'fio__52': 'Jumaniyozov Mustafo Matniyazovich', '8__52': '16\xa0438\xa0500', 'tili__52': "O'zbek", 'sana__52': None, 'summa__52': 0.0, 'sinfi__52': '5-sinf', 'tolov_turi__52': '19\xa0506\xa0500', 'telefon__52': '08.08.2024', 'order_column__52': '220, 380, 815', 'fio__53': 'Masharipova Mohinur Sarvar qizi', '8__53': '0', 'tili__53': 'Rus', 'sana__53': None, 'summa__53': 522000.0, 'sinfi__53': '6-sinf', 'tolov_turi__53': '913', 'telefon__53': '999696998', 'order_column__53': '522\xa0000', 'fio__54': "Masharipov Mustafa Sarvar o'g'li", '8__54': '558\xa0000', 'tili__54': 'Rus', 'sana__54': None, 'summa__54': 558000.0, 'sinfi__54': '1-sinf', 'tolov_turi__54': '912', 'telefon__54': '99 969 69 98', 'order_column__54': '558\xa0000', 'fio__55': 'Xakimova Diana Farxod qizi  ', '8__55': None, 'tili__55': None, 'sana__55': None, 'summa__55': 69000.0, 'sinfi__55': '5-sinf ', 'tolov_turi__55': None, 'telefon__55': None, 'order_column__55': None, 'fio__56': "Xakimov Samir Farxod o'g'li  ", '8__56': None, 'tili__56': None, 'sana__56': None, 'summa__56': 69000.0, 'sinfi__56': '7-sinf', 'tolov_turi__56': None, 'telefon__56': None, 'order_column__56': None}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-11-13 02:20:44,981 - ETL_Logger - INFO | [maktab kassa] data successfully extracted
+2024-11-13 02:20:45,042 - ETL_Logger - INFO | Database Connection Successful
+2024-11-13 02:20:45,151 - ETL_Logger - INFO | maktab_kassa_months loaded
+2024-11-13 02:20:45,161 - ETL_Logger - INFO | maktab_kassa_gazel_tulovi loaded
+2024-11-13 02:20:45,171 - ETL_Logger - INFO | maktab_kassa_qaytarilgan_tulovlar loaded
+2024-11-13 02:20:45,171 - ETL_Logger - INFO | [maktab kassa] data successfully loaded

@@ -42,7 +42,7 @@ def extract_data(info: dict):
                     df = df.dropna(how='all')
 
                     # salary column
-                    df[2] = df[2].str.replace("\xa0", "", regex=False).str.replace(",", ".", regex=False)
+                    df[2] = df[2].str.replace("\xa0", "", regex=False).str.replace(",", ".", regex=False).str.replace(" ", "", regex=False)
                     df[2] = df[2].astype(float) # for salary
 
                     # date column
