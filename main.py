@@ -2,9 +2,9 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))) # for importing modules
 
-from scripts.extract import pnl_extract, maktab_royxat_extract, maktab_kassa_extract, stipendiya_extract
-from scripts.load import pnl_load, maktab_royxat_load, maktab_kassa_load, stipendiya_load
-from config import pnl, maktab_royxat, maktab_kassa, stipendiya
+from scripts.extract import pnl_extract, maktab_royxat_extract, maktab_kassa_extract, stipendiya_extract, maktab_xodimlar_extract, pochemuchkadb_extract
+from scripts.load import pnl_load, maktab_royxat_load, maktab_kassa_load, stipendiya_load, maktab_xodimlar_load, pochemuchkadb_load
+from config import pnl, maktab_royxat, maktab_kassa, stipendiya, maktab_xodimlar, pochemuchkadb
 from logs import logger
 
 # pnl etl
@@ -52,18 +52,49 @@ from logs import logger
 #     except Exception as e:
 #         logger.error(f"error while loading [maktab kassa] data: {e}")
 
-# stipendiya data etl
-stipendiya_data = None
-try:
-    stipendiya_data = stipendiya_extract(stipendiya)
-    logger.info(f"[sripendiya] data successfully extracted")
-except Exception as e:
-    logger.error(f"error while extracting [sripendiya] data: {e}")
+# # stipendiya data etl
+# stipendiya_data = None
+# try:
+#     stipendiya_data = stipendiya_extract(stipendiya)
+#     logger.info(f"[stipendiya] data successfully extracted")
+# except Exception as e:
+#     logger.error(f"error while extracting [stipendiya] data: {e}")
 
-if not stipendiya_data.empty:
+# if not stipendiya_data.empty:
+#     try:
+#         stipendiya_load(stipendiya_data)
+#         logger.info(f"[stipendiya] data successfully loaded")
+#     except Exception as e:
+#         logger.error(f"error while loading [stipendiya] data: {e}")
+
+# maktab_xodimlar data etl
+# m_xodimlar_data = None
+# try:
+#     m_xodimlar_data = maktab_xodimlar_extract(maktab_xodimlar)
+#     logger.info(f"[maktab xodimlar] data successfully extracted")
+# except Exception as e:
+#     logger.error(f"error while extracting [maktab xodimlar] data: {e}")
+
+# if  m_xodimlar_data:
+#     try:
+#         maktab_xodimlar_load(m_xodimlar_data)
+#         logger.info(f"[maktab xodimlar] data successfully loaded")
+#     except Exception as e:
+#         logger.error(f"error while loading [maktab xodimlar] data: {e}")
+
+
+# maktab_xodimlar data etl
+pochemuchkadb_data = None
+try:
+    pochemuchkadb_data = pochemuchkadb_extract(pochemuchkadb)
+    logger.info(f"[pochemuchkadb] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [pochemuchkadb] data: {e}")
+
+if  pochemuchkadb_data:
     try:
-        stipendiya_load(stipendiya_data)
-        logger.info(f"[sripendiya] data successfully loaded")
+        pochemuchkadb_load(pochemuchkadb_data)
+        logger.info(f"[pochemuchkadb] data successfully loaded")
     except Exception as e:
-        logger.error(f"error while loading [sripendiya] data: {e}")
+        logger.error(f"error while loading [pochemuchkadb] data: {e}")
 

@@ -30,3 +30,11 @@ maktab_kassa = {
 stipendiya = {
     "url": "https://docs.google.com/spreadsheets/d/1Xrx3L_ydwMkQcUlN9Oo03DPzxOfWnkDetnlhHQHAjko/edit?usp=sharing",
 }
+
+maktab_xodimlar = {
+    "url": "https://docs.google.com/spreadsheets/d/1S4dhtwcIfz7AFNNb8FrGOsEckclboYECzLwGDle8Ylw/edit?usp=sharing"
+}
+
+pochemuchkadb = {
+    "url": "https://docs.google.com/spreadsheets/d/1N-7H_HYBfISZYFxJADPThZWOBFPBJA2k1TiRr1amKKQ/edit?usp=sharing"
+}
