@@ -198,3 +198,7 @@ LINE 1: ..., telefon, sana, order_column, tolov_turi, summa, "8") VALUE...
 2024-11-13 02:20:45,161 - ETL_Logger - INFO | maktab_kassa_gazel_tulovi loaded
 2024-11-13 02:20:45,171 - ETL_Logger - INFO | maktab_kassa_qaytarilgan_tulovlar loaded
 2024-11-13 02:20:45,171 - ETL_Logger - INFO | [maktab kassa] data successfully loaded
+2024-11-14 06:02:26,825 - ETL_Logger - INFO | [sripendiya] data successfully extracted
+2024-11-14 06:04:13,632 - ETL_Logger - INFO | [sripendiya] data successfully extracted
+2024-11-14 06:04:13,719 - ETL_Logger - INFO | Database Connection Successful
+2024-11-14 06:04:13,795 - ETL_Logger - INFO | [sripendiya] data successfully loaded

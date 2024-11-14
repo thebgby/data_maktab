@@ -26,3 +26,7 @@ maktab_kassa = {
     "maktab_kassa_gazel_tulovi": [5],
     "maktab_kassa_qaytarilgan_tulovlar": [7]
 }
+
+stipendiya = {
+    "url": "https://docs.google.com/spreadsheets/d/1Xrx3L_ydwMkQcUlN9Oo03DPzxOfWnkDetnlhHQHAjko/edit?usp=sharing",
+}
