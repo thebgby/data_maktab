@@ -38,3 +38,7 @@ maktab_xodimlar = {
 pochemuchkadb = {
     "url": "https://docs.google.com/spreadsheets/d/1N-7H_HYBfISZYFxJADPThZWOBFPBJA2k1TiRr1amKKQ/edit?usp=sharing"
 }
+
+dars_jadvali = {
+    "url": "https://docs.google.com/spreadsheets/d/14fTE4IUDMiCOwWWtYjZnYFCQkCov5CFuBVuKNPk0wZI/edit?usp=sharing"
+}

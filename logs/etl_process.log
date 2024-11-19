@@ -300,3 +300,28 @@ LINE 1: INSERT INTO pochemuchkadb (regid, sana, manager_id, manbda, ...
 2024-11-14 11:41:11,537 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
 2024-11-14 11:41:11,561 - ETL_Logger - INFO | Database Connection Successful
 2024-11-14 11:41:11,599 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-19 03:52:13,806 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-19 03:52:13,845 - ETL_Logger - INFO | Database Connection Successful
+2024-11-19 03:52:13,879 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-19 03:52:53,012 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-11-19 03:52:53,036 - ETL_Logger - INFO | Database Connection Successful
+2024-11-19 03:52:53,068 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-11-19 03:52:57,109 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-19 03:52:57,110 - ETL_Logger - INFO | Database Connection Successful
+2024-11-19 03:52:57,134 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-19 05:21:49,636 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-11-19 05:21:49,700 - ETL_Logger - INFO | Database Connection Successful
+2024-11-19 05:21:49,765 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-11-19 05:21:53,530 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-19 05:21:53,531 - ETL_Logger - INFO | Database Connection Successful
+2024-11-19 05:21:53,584 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-19 05:21:57,075 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-11-19 05:22:37,046 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-11-19 05:22:37,110 - ETL_Logger - INFO | Database Connection Successful
+2024-11-19 05:22:37,180 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-11-19 05:22:40,939 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-19 05:22:40,940 - ETL_Logger - INFO | Database Connection Successful
+2024-11-19 05:22:40,997 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-19 05:22:44,314 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-11-19 05:22:44,315 - ETL_Logger - INFO | Database Connection Successful
+2024-11-19 05:22:44,388 - ETL_Logger - INFO | [dars jadvali] data successfully loaded

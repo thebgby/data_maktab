@@ -2,9 +2,11 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))) # for importing modules
 
-from scripts.extract import pnl_extract, maktab_royxat_extract, maktab_kassa_extract, stipendiya_extract, maktab_xodimlar_extract, pochemuchkadb_extract
-from scripts.load import pnl_load, maktab_royxat_load, maktab_kassa_load, stipendiya_load, maktab_xodimlar_load, pochemuchkadb_load
-from config import pnl, maktab_royxat, maktab_kassa, stipendiya, maktab_xodimlar, pochemuchkadb
+from scripts.extract import pnl_extract, maktab_royxat_extract, maktab_kassa_extract, stipendiya_extract, \
+    maktab_xodimlar_extract, pochemuchkadb_extract, darsjadvali_extract
+from scripts.load import pnl_load, maktab_royxat_load, maktab_kassa_load, stipendiya_load, \
+    maktab_xodimlar_load, pochemuchkadb_load, darsjadvali_load
+from config import pnl, maktab_royxat, maktab_kassa, stipendiya, maktab_xodimlar, pochemuchkadb, dars_jadvali
 from logs import logger
 
 # pnl etl
@@ -68,19 +70,19 @@ from logs import logger
 #         logger.error(f"error while loading [stipendiya] data: {e}")
 
 # maktab_xodimlar data etl
-# m_xodimlar_data = None
-# try:
-#     m_xodimlar_data = maktab_xodimlar_extract(maktab_xodimlar)
-#     logger.info(f"[maktab xodimlar] data successfully extracted")
-# except Exception as e:
-#     logger.error(f"error while extracting [maktab xodimlar] data: {e}")
+m_xodimlar_data = None
+try:
+    m_xodimlar_data = maktab_xodimlar_extract(maktab_xodimlar)
+    logger.info(f"[maktab xodimlar] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [maktab xodimlar] data: {e}")
 
-# if  m_xodimlar_data:
-#     try:
-#         maktab_xodimlar_load(m_xodimlar_data)
-#         logger.info(f"[maktab xodimlar] data successfully loaded")
-#     except Exception as e:
-#         logger.error(f"error while loading [maktab xodimlar] data: {e}")
+if  m_xodimlar_data:
+    try:
+        maktab_xodimlar_load(m_xodimlar_data)
+        logger.info(f"[maktab xodimlar] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [maktab xodimlar] data: {e}")
 
 
 # maktab_xodimlar data etl
@@ -98,3 +100,18 @@ if  pochemuchkadb_data:
     except Exception as e:
         logger.error(f"error while loading [pochemuchkadb] data: {e}")
 
+
+# dars jadvali data etl
+darsjadval_data = None
+try:
+    darsjadval_data = darsjadvali_extract(dars_jadvali)
+    logger.info(f"[dars jadvali] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [pochemuchkadb] data: {e}")
+
+if  not darsjadval_data.empty:
+    try:
+        darsjadvali_load(darsjadval_data)
+        logger.info(f"[dars jadvali] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [dars jadvali] data: {e}")
