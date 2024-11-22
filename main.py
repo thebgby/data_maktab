@@ -54,20 +54,20 @@ from logs import logger
 #     except Exception as e:
 #         logger.error(f"error while loading [maktab kassa] data: {e}")
 
-# # stipendiya data etl
-# stipendiya_data = None
-# try:
-#     stipendiya_data = stipendiya_extract(stipendiya)
-#     logger.info(f"[stipendiya] data successfully extracted")
-# except Exception as e:
-#     logger.error(f"error while extracting [stipendiya] data: {e}")
+# stipendiya data etl
+stipendiya_data = None
+try:
+    stipendiya_data = stipendiya_extract(stipendiya)
+    logger.info(f"[stipendiya] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [stipendiya] data: {e}")
 
-# if not stipendiya_data.empty:
-#     try:
-#         stipendiya_load(stipendiya_data)
-#         logger.info(f"[stipendiya] data successfully loaded")
-#     except Exception as e:
-#         logger.error(f"error while loading [stipendiya] data: {e}")
+if not stipendiya_data.empty:
+    try:
+        stipendiya_load(stipendiya_data)
+        logger.info(f"[stipendiya] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [stipendiya] data: {e}")
 
 # maktab_xodimlar data etl
 m_xodimlar_data = None
