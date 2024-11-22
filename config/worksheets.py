@@ -36,7 +36,7 @@ maktab_xodimlar = {
 }
 
 pochemuchkadb = {
-    "url": "https://docs.google.com/spreadsheets/d/1N-7H_HYBfISZYFxJADPThZWOBFPBJA2k1TiRr1amKKQ/edit?usp=sharing"
+    "url": "https://docs.google.com/spreadsheets/d/1cYNhSQscgS0Z0pU0sdTJdtnWFiPnLWJVX36sEl8BLrw/edit?usp=sharing"
 }
 
 dars_jadvali = {
