@@ -47,6 +47,9 @@ def extract_data(info: dict):
         df["start_date"] = df["start_date"].str.replace(",", ".", regex=False)
         df["start_date"] = pd.to_datetime(df["start_date"], format="%d.%m.%y", errors="coerce")
 
+        df["end_date"] = df["end_date"].str.replace(",", ".", regex=False)
+        df["end_date"] = pd.to_datetime(df["end_date"], format="%d.%m.%y", errors="coerce")
+
         final_data["maktab_xodimlar"] = df
     except Exception as e:
         logger.error(f"maktab_xodimlar | {e}")
