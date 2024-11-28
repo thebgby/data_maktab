@@ -40,8 +40,7 @@ def load_data(data: Dict[str, df]):
                        
         
         TRUNCATE TABLE  pochemuchkadb_managerdb;  
-
-        INSERT INTO pochemuchkadb_managerdb VALUES ('411e89a9', 'Shahnoza');             
+           
         """))
         c.commit()
     for table_name, df in data.items():

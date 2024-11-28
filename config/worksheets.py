@@ -42,3 +42,11 @@ pochemuchkadb = {
 dars_jadvali = {
     "url": "https://docs.google.com/spreadsheets/d/14fTE4IUDMiCOwWWtYjZnYFCQkCov5CFuBVuKNPk0wZI/edit?usp=sharing"
 }
+
+psixolog_test = {
+    "url": "https://docs.google.com/spreadsheets/d/1YfQ8AI0fWw0OYOtBEe-vpBqTzz9aPnDwN3lhFGfiBso/edit?usp=sharing"
+}
+
+kutubxona = {
+    "url": "https://docs.google.com/spreadsheets/d/1p9zFqpBaWdxu5hvusYNKU8-Kl_dYfIK0-GVI9yzr1Ro/edit?usp=sharing"
+}

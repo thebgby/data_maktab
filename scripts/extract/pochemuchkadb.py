@@ -45,6 +45,19 @@ def extract_data(info: dict):
 
     df["qayta_sana"] = df["qayta_sana"].str.replace(",", ".", regex=False)
     df["qayta_sana"] = pd.to_datetime(df["qayta_sana"], dayfirst=True, errors="coerce")
-    # print(df)
     final_data["pochemuchkadb"] = df
+    # print(df)
+
+    # MENEGER DB
+    m_sheet = sheets_conn.get_worksheet(1)
+    m_sheet_data = m_sheet.get_values("A1:B")
+    columns = [
+        "manager_id",
+        "manager_name"
+    ]
+
+    df_m = pd.DataFrame(m_sheet_data[1:], columns=columns)
+
+    final_data["pochemuchkadb_managerdb"] = df_m
+
     return final_data
