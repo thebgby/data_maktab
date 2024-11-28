@@ -325,3 +325,72 @@ LINE 1: INSERT INTO pochemuchkadb (regid, sana, manager_id, manbda, ...
 2024-11-19 05:22:44,314 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
 2024-11-19 05:22:44,315 - ETL_Logger - INFO | Database Connection Successful
 2024-11-19 05:22:44,388 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-11-26 02:06:14,590 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-11-26 02:06:14,664 - ETL_Logger - INFO | Database Connection Successful
+2024-11-26 02:06:14,731 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-11-26 02:06:29,354 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-11-26 02:06:29,355 - ETL_Logger - INFO | Database Connection Successful
+2024-11-26 02:06:29,423 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-11-26 02:06:34,770 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-26 02:06:34,771 - ETL_Logger - INFO | Database Connection Successful
+2024-11-26 02:06:34,828 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-26 02:06:38,160 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-11-26 02:06:38,161 - ETL_Logger - INFO | Database Connection Successful
+2024-11-26 02:06:38,228 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-11-28 06:28:59,023 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-11-28 06:28:59,068 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 06:28:59,128 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-11-28 06:29:14,499 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-11-28 06:29:14,500 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 06:29:14,535 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-11-28 06:29:20,024 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-28 06:29:20,025 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 06:29:20,051 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-28 06:29:21,918 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-11-28 06:29:21,918 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 06:29:21,952 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-11-28 06:29:24,002 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-28 06:30:45,429 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-28 06:35:16,685 - ETL_Logger - ERROR | error while extracting [psixolog test] data: 3 columns passed, passed data had 2 columns
+2024-11-28 06:39:56,332 - ETL_Logger - ERROR | error while extracting [psixolog test] data: 3 columns passed, passed data had 2 columns
+2024-11-28 06:40:09,755 - ETL_Logger - ERROR | error while extracting [psixolog test] data: 3 columns passed, passed data had 2 columns
+2024-11-28 06:41:00,341 - ETL_Logger - ERROR | error while extracting [psixolog test] data: 'list' object has no attribute 'major_dimension'
+2024-11-28 06:41:15,701 - ETL_Logger - ERROR | error while extracting [psixolog test] data: 3 columns passed, passed data had 2 columns
+2024-11-28 06:42:13,762 - ETL_Logger - ERROR | error while extracting [psixolog test] data: 3 columns passed, passed data had 2 columns
+2024-11-28 06:42:31,579 - ETL_Logger - ERROR | error while extracting [psixolog test] data: index 2 not found
+2024-11-28 06:43:23,362 - ETL_Logger - ERROR | error while extracting [psixolog test] data: index 2 not found
+2024-11-28 06:43:41,006 - ETL_Logger - ERROR | error while extracting [psixolog test] data: 3 columns passed, passed data had 2 columns
+2024-11-28 06:44:26,679 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-28 06:44:26,704 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 06:44:26,751 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-11-28 06:48:12,165 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-28 06:48:12,187 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 06:48:12,231 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-11-28 06:48:54,763 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-28 06:48:54,785 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 06:48:54,824 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-11-28 06:52:21,815 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-28 06:52:21,838 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 06:52:21,874 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-11-28 09:14:06,207 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-11-28 09:14:06,250 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 09:14:06,324 - ETL_Logger - ERROR | error while loading [kutubxona] data: (psycopg2.errors.UndefinedColumn) column "kitob_raqami" of relation "kutubxona_ijaradb" does not exist
+LINE 1: ...ERT INTO kutubxona_ijaradb (ijara_id, olgan_sana, kitob_raqa...
+                                                             ^
+
+[SQL: INSERT INTO kutubxona_ijaradb (ijara_id, olgan_sana, kitob_raqami, student_name, sinfi, muddati, holati) VALUES (%(ijara_id__0)s, %(olgan_sana__0)s, %(kitob_raqami__0)s, %(student_name__0)s, %(sinfi__0)s, %(muddati__0)s, %(holati__0)s), (%(ijara_id__ ... 32350 characters truncated ... )s, %(kitob_raqami__239)s, %(student_name__239)s, %(sinfi__239)s, %(muddati__239)s, %(holati__239)s)]
+[parameters: {'kitob_raqami__0': '50eca19d', 'olgan_sana__0': '12.09.2024', 'sinfi__0': None, 'muddati__0': '24.09.2024', 'student_name__0': 'Ozodov Nodirbek (Texnik)', 'holati__0': 'Toshirdi', 'ijara_id__0': 'c6f98351', 'kitob_raqami__1': 'f7f6ee3c', 'olgan_sana__1': '13.09.2024', 'sinfi__1': '8B', 'muddati__1': '23.09.2024', 'student_name__1': 'Болтаев Жалол', 'holati__1': 'Toshirdi', 'ijara_id__1': 'c1eda0ba', 'kitob_raqami__2': 'ac284192', 'olgan_sana__2': '13.09.2024', 'sinfi__2': '6B', 'muddati__2': '23.09.2024', 'student_name__2': 'Мадрахимова Гулойим ( Тарих фани укитувчиси)', 'holati__2': 'Toshirdi', 'ijara_id__2': '0cac7189', 'kitob_raqami__3': '9fd621e4', 'olgan_sana__3': '13.09.2024', 'sinfi__3': '3A', 'muddati__3': '23.09.2024', 'student_name__3': 'Муратов  Ислам', 'holati__3': 'Toshirdi', 'ijara_id__3': '0ea62df7', 'kitob_raqami__4': '842dd9ac', 'olgan_sana__4': '16.09.2024', 'sinfi__4': '6B', 'muddati__4': '26.09.2024', 'student_name__4': 'Собиров Шохрух', 'holati__4': 'Toshirdi', 'ijara_id__4': 'aeaf3868', 'kitob_raqami__5': '7669c0e8', 'olgan_sana__5': '16.09.2024', 'sinfi__5': '6A', 'muddati__5': '26.09.2024', 'student_name__5': 'Муратова Нафиса', 'holati__5': 'Toshirdi', 'ijara_id__5': '0e5c7f5d', 'kitob_raqami__6': 'e14c6645', 'olgan_sana__6': '17.09.2024', 'sinfi__6': '6B', 'muddati__6': '27.09.2024', 'student_name__6': 'Султанназарова Бону', 'holati__6': 'Toshirdi', 'ijara_id__6': 'f1633411', 'kitob_raqami__7': '25371b66' ... 1580 parameters truncated ... 'ijara_id__232': '3fa552d3', 'kitob_raqami__233': '58d1ae43', 'olgan_sana__233': '26.11.2024', 'sinfi__233': '2A', 'muddati__233': '06.12.2024', 'student_name__233': 'Уктамова Эзоза', 'holati__233': 'Oldi', 'ijara_id__233': '0e9618dc', 'kitob_raqami__234': '698d7860', 'olgan_sana__234': '26.11.2024', 'sinfi__234': '8B', 'muddati__234': '06.12.2024', 'student_name__234': 'Давранбекова Лайло', 'holati__234': 'Oldi', 'ijara_id__234': 'a3a78fda', 'kitob_raqami__235': '0f291767', 'olgan_sana__235': '26.11.2024', 'sinfi__235': '8B', 'muddati__235': '06.12.2024', 'student_name__235': 'Кадамбаева Севинчой', 'holati__235': 'Oldi', 'ijara_id__235': '15c85af4', 'kitob_raqami__236': '410a4394', 'olgan_sana__236': '27.11.2024', 'sinfi__236': '5D', 'muddati__236': '09.12.2024', 'student_name__236': 'Шоназаров Фирдафс', 'holati__236': 'Oldi', 'ijara_id__236': 'da579c1e', 'kitob_raqami__237': '4c5c3f06', 'olgan_sana__237': '27.11.2024', 'sinfi__237': '2A', 'muddati__237': '09.12.2024', 'student_name__237': 'Берегинов Мироншох', 'holati__237': 'Oldi', 'ijara_id__237': 'bf365140', 'kitob_raqami__238': '44d74fc8', 'olgan_sana__238': '27.11.2024', 'sinfi__238': '2A', 'muddati__238': '09.12.2024', 'student_name__238': 'Собиров Имрон', 'holati__238': 'Oldi', 'ijara_id__238': 'bcbfe955', 'kitob_raqami__239': 'b03ea2fb', 'olgan_sana__239': '27.11.2024', 'sinfi__239': '2A', 'muddati__239': '09.12.2024', 'student_name__239': 'Кадирова Зарина', 'holati__239': 'Oldi', 'ijara_id__239': 'cf0ae21a'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-11-28 09:15:15,262 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-11-28 09:15:15,283 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 09:15:15,336 - ETL_Logger - ERROR | error while loading [kutubxona] data: (psycopg2.errors.DatetimeFieldOverflow) date/time field value out of range: "24.09.2024"
+LINE 1: ...4', '50eca19d', 'Ozodov Nodirbek (Texnik)', NULL, '24.09.202...
+                                                             ^
+HINT:  Perhaps you need a different "datestyle" setting.
+
+[SQL: INSERT INTO kutubxona_ijaradb (ijara_id, olgan_sana, kitob_nomi, student_name, sinfi, muddati, holati) VALUES (%(ijara_id__0)s, %(olgan_sana__0)s, %(kitob_nomi__0)s, %(student_name__0)s, %(sinfi__0)s, %(muddati__0)s, %(holati__0)s), (%(ijara_id__1)s, ... 31868 characters truncated ... 39)s, %(kitob_nomi__239)s, %(student_name__239)s, %(sinfi__239)s, %(muddati__239)s, %(holati__239)s)]
+[parameters: {'student_name__0': 'Ozodov Nodirbek (Texnik)', 'holati__0': 'Toshirdi', 'kitob_nomi__0': '50eca19d', 'ijara_id__0': 'c6f98351', 'olgan_sana__0': '12.09.2024', 'muddati__0': '24.09.2024', 'sinfi__0': None, 'student_name__1': 'Болтаев Жалол', 'holati__1': 'Toshirdi', 'kitob_nomi__1': 'f7f6ee3c', 'ijara_id__1': 'c1eda0ba', 'olgan_sana__1': '13.09.2024', 'muddati__1': '23.09.2024', 'sinfi__1': '8B', 'student_name__2': 'Мадрахимова Гулойим ( Тарих фани укитувчиси)', 'holati__2': 'Toshirdi', 'kitob_nomi__2': 'ac284192', 'ijara_id__2': '0cac7189', 'olgan_sana__2': '13.09.2024', 'muddati__2': '23.09.2024', 'sinfi__2': '6B', 'student_name__3': 'Муратов  Ислам', 'holati__3': 'Toshirdi', 'kitob_nomi__3': '9fd621e4', 'ijara_id__3': '0ea62df7', 'olgan_sana__3': '13.09.2024', 'muddati__3': '23.09.2024', 'sinfi__3': '3A', 'student_name__4': 'Собиров Шохрух', 'holati__4': 'Toshirdi', 'kitob_nomi__4': '842dd9ac', 'ijara_id__4': 'aeaf3868', 'olgan_sana__4': '16.09.2024', 'muddati__4': '26.09.2024', 'sinfi__4': '6B', 'student_name__5': 'Муратова Нафиса', 'holati__5': 'Toshirdi', 'kitob_nomi__5': '7669c0e8', 'ijara_id__5': '0e5c7f5d', 'olgan_sana__5': '16.09.2024', 'muddati__5': '26.09.2024', 'sinfi__5': '6A', 'student_name__6': 'Султанназарова Бону', 'holati__6': 'Toshirdi', 'kitob_nomi__6': 'e14c6645', 'ijara_id__6': 'f1633411', 'olgan_sana__6': '17.09.2024', 'muddati__6': '27.09.2024', 'sinfi__6': '6B', 'student_name__7': 'Абдураимов Мадрахимжон' ... 1580 parameters truncated ... 'sinfi__232': '2A', 'student_name__233': 'Уктамова Эзоза', 'holati__233': 'Oldi', 'kitob_nomi__233': '58d1ae43', 'ijara_id__233': '0e9618dc', 'olgan_sana__233': '26.11.2024', 'muddati__233': '06.12.2024', 'sinfi__233': '2A', 'student_name__234': 'Давранбекова Лайло', 'holati__234': 'Oldi', 'kitob_nomi__234': '698d7860', 'ijara_id__234': 'a3a78fda', 'olgan_sana__234': '26.11.2024', 'muddati__234': '06.12.2024', 'sinfi__234': '8B', 'student_name__235': 'Кадамбаева Севинчой', 'holati__235': 'Oldi', 'kitob_nomi__235': '0f291767', 'ijara_id__235': '15c85af4', 'olgan_sana__235': '26.11.2024', 'muddati__235': '06.12.2024', 'sinfi__235': '8B', 'student_name__236': 'Шоназаров Фирдафс', 'holati__236': 'Oldi', 'kitob_nomi__236': '410a4394', 'ijara_id__236': 'da579c1e', 'olgan_sana__236': '27.11.2024', 'muddati__236': '09.12.2024', 'sinfi__236': '5D', 'student_name__237': 'Берегинов Мироншох', 'holati__237': 'Oldi', 'kitob_nomi__237': '4c5c3f06', 'ijara_id__237': 'bf365140', 'olgan_sana__237': '27.11.2024', 'muddati__237': '09.12.2024', 'sinfi__237': '2A', 'student_name__238': 'Собиров Имрон', 'holati__238': 'Oldi', 'kitob_nomi__238': '44d74fc8', 'ijara_id__238': 'bcbfe955', 'olgan_sana__238': '27.11.2024', 'muddati__238': '09.12.2024', 'sinfi__238': '2A', 'student_name__239': 'Кадирова Зарина', 'holati__239': 'Oldi', 'kitob_nomi__239': 'b03ea2fb', 'ijara_id__239': 'cf0ae21a', 'olgan_sana__239': '27.11.2024', 'muddati__239': '09.12.2024', 'sinfi__239': '2A'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2024-11-28 09:17:03,617 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-11-28 09:17:03,639 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 09:17:03,705 - ETL_Logger - INFO | [kutubxona] data successfully loaded

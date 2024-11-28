@@ -5,3 +5,5 @@ from .stipendiya import extract_data as stipendiya_extract
 from .maktab_xodimlar import extract_data as maktab_xodimlar_extract
 from .pochemuchkadb import extract_data as pochemuchkadb_extract
 from .dars_jadvali import extract_data as darsjadvali_extract
+from .psixolog_test import extract_data as psixolog_test_extract
+from .kutubxona import extract_data as kutubxona_extract
