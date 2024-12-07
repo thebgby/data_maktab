@@ -394,3 +394,9 @@ HINT:  Perhaps you need a different "datestyle" setting.
 2024-11-28 09:17:03,617 - ETL_Logger - INFO | [kutubxona] data successfully extracted
 2024-11-28 09:17:03,639 - ETL_Logger - INFO | Database Connection Successful
 2024-11-28 09:17:03,705 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-11-30 07:18:50,473 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-11-30 07:18:50,515 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 07:18:50,549 - ETL_Logger - ERROR | error while loading [nps] data: NDFrame.to_sql() missing 1 required positional argument: 'con'
+2024-11-30 07:19:44,924 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-11-30 07:19:44,944 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 07:19:44,997 - ETL_Logger - INFO | [nps] data successfully loaded

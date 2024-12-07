@@ -5,9 +5,7 @@ import numpy as np
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))  # for importing modules
 
 import pandas as pd
-from config import gs_connection, pochemuchkadb
-from logs import logger
-import time
+from config import gs_connection
 
 def extract_data(info: dict):
     sheets_url = info["url"]

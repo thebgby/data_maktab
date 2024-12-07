@@ -7,3 +7,4 @@ from .pochemuchkadb import load_data as pochemuchkadb_load
 from .dars_jadvali import load_data as darsjadvali_load
 from .psixolog_test import load_data as psixolog_test_load
 from .kutubxona import load_data as kutubxona_load
+from .nps import load_data as nps_load

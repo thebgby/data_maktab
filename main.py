@@ -145,3 +145,18 @@ if  kutubxona_data:
         logger.info(f"[kutubxona] data successfully loaded")
     except Exception as e:
         logger.error(f"error while loading [kutubxona] data: {e}")
+
+# nps etl
+nps_data = None
+try:
+    nps_data = nps_extract(nps)
+    logger.info(f"[nps] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [nps] data: {e}")
+
+if  not nps_data.empty:
+    try:
+        nps_load(nps_data)
+        logger.info(f"[nps] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [nps] data: {e}")

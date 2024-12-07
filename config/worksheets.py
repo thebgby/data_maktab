@@ -50,3 +50,11 @@ psixolog_test = {
 kutubxona = {
     "url": "https://docs.google.com/spreadsheets/d/1p9zFqpBaWdxu5hvusYNKU8-Kl_dYfIK0-GVI9yzr1Ro/edit?usp=sharing"
 }
+
+nps = {
+    "url": "https://docs.google.com/spreadsheets/d/1jMebj9HaT7moqgvvRHcLCAN6Rb2GhCg7qGAGYhBbr5s/edit?usp=sharing"
+}
+
+attendance = {
+    "url": "https://docs.google.com/spreadsheets/d/1kR9o8hBWSrnKz2W9Y_SG2Hlsw5fbvaHAjbkiMgch5z8/edit?usp=sharing"
+}

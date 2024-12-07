@@ -3,11 +3,8 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))  # for importing modules
 
-import time
 import pandas as pd
 from config import gs_connection
-from logs import logger
-from config import maktab_royxat
 
 
 def extract_data(info: dict):
