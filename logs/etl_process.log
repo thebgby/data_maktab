@@ -1,0 +1,108 @@
+2024-11-28 10:58:36,485 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-11-28 10:58:36,602 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 10:58:38,999 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-11-28 10:58:53,955 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-11-28 10:58:53,957 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 10:58:54,339 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-11-28 10:58:58,255 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-28 10:58:58,256 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 10:58:58,851 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-28 10:59:02,567 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-11-28 10:59:02,568 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 10:59:03,235 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-11-28 10:59:08,586 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-28 10:59:08,587 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 10:59:10,582 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-11-28 10:59:20,286 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-11-28 10:59:20,288 - ETL_Logger - INFO | Database Connection Successful
+2024-11-28 10:59:21,311 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-11-30 08:52:15,157 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-11-30 08:52:15,268 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 08:52:15,556 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-11-30 08:52:28,454 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-11-30 08:52:28,456 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 08:52:28,759 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-11-30 08:52:34,053 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-30 08:52:34,054 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 08:52:34,352 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-30 08:52:37,122 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-11-30 08:52:37,123 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 08:52:37,304 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-11-30 08:52:43,074 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-30 08:52:43,074 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 08:52:44,041 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-11-30 08:52:50,243 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-11-30 08:52:50,244 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 08:52:50,670 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-11-30 09:04:27,986 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-11-30 09:04:28,081 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 09:04:28,256 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-11-30 09:04:40,845 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-11-30 09:04:40,846 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 09:04:40,970 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-11-30 09:04:46,787 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-11-30 09:04:46,788 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 09:04:46,959 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-11-30 09:04:49,850 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-11-30 09:04:49,852 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 09:04:50,059 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-11-30 09:04:55,306 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-11-30 09:04:55,307 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 09:04:56,095 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-11-30 09:04:59,831 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-11-30 09:04:59,833 - ETL_Logger - INFO | Database Connection Successful
+2024-11-30 09:05:00,168 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-05 10:54:07,218 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-05 10:54:07,368 - ETL_Logger - INFO | Database Connection Successful
+2024-12-05 10:54:07,556 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-05 10:54:21,767 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-05 10:54:21,768 - ETL_Logger - INFO | Database Connection Successful
+2024-12-05 10:54:21,884 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-05 10:54:27,585 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-05 10:54:27,586 - ETL_Logger - INFO | Database Connection Successful
+2024-12-05 10:54:27,719 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-05 10:54:31,133 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-05 10:54:31,134 - ETL_Logger - INFO | Database Connection Successful
+2024-12-05 10:54:31,261 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-05 10:54:37,487 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-05 10:54:37,489 - ETL_Logger - INFO | Database Connection Successful
+2024-12-05 10:54:37,715 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-05 10:54:48,379 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-05 10:54:48,380 - ETL_Logger - INFO | Database Connection Successful
+2024-12-05 10:54:48,738 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-07 11:30:28,642 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-07 11:30:28,887 - ETL_Logger - INFO | Database Connection Successful
+2024-12-07 11:30:29,097 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-07 11:30:43,318 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-07 11:30:43,321 - ETL_Logger - INFO | Database Connection Successful
+2024-12-07 11:30:43,686 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-07 11:30:49,472 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-07 11:30:49,473 - ETL_Logger - INFO | Database Connection Successful
+2024-12-07 11:30:49,650 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-07 11:30:53,379 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-07 11:30:53,381 - ETL_Logger - INFO | Database Connection Successful
+2024-12-07 11:30:53,577 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-07 11:30:59,037 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-07 11:30:59,039 - ETL_Logger - INFO | Database Connection Successful
+2024-12-07 11:30:59,384 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-07 11:31:09,957 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-07 11:31:09,960 - ETL_Logger - INFO | Database Connection Successful
+2024-12-07 11:31:10,338 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-09 12:04:04,507 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-09 12:04:04,687 - ETL_Logger - INFO | Database Connection Successful
+2024-12-09 12:04:04,918 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-09 12:04:18,866 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-09 12:04:18,869 - ETL_Logger - INFO | Database Connection Successful
+2024-12-09 12:04:19,006 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-09 12:04:21,686 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-09 12:04:21,687 - ETL_Logger - INFO | Database Connection Successful
+2024-12-09 12:04:21,880 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-09 12:04:24,069 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-09 12:04:24,070 - ETL_Logger - INFO | Database Connection Successful
+2024-12-09 12:04:24,247 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-09 12:04:27,981 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-09 12:04:27,982 - ETL_Logger - INFO | Database Connection Successful
+2024-12-09 12:04:28,709 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-09 12:04:38,493 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-09 12:04:38,495 - ETL_Logger - INFO | Database Connection Successful
+2024-12-09 12:04:39,121 - ETL_Logger - INFO | [kutubxona] data successfully loaded
