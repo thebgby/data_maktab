@@ -160,3 +160,34 @@ if  not nps_data.empty:
         logger.info(f"[nps] data successfully loaded")
     except Exception as e:
         logger.error(f"error while loading [nps] data: {e}")
+
+
+# tugaraklar reytingi etl
+tugaraklar_reytingi_data = None
+try:
+    tugaraklar_reytingi_data = tugaraklar_reytingi_extract(nps)
+    logger.info(f"[tugaraklar_reytingi_data] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [tugaraklar_reytingi_data] data: {e}")
+
+if  not tugaraklar_reytingi_data.empty:
+    try:
+        tugaraklar_reytingi_load(tugaraklar_reytingi_data)
+        logger.info(f"[tugaraklar_reytingi_data] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [tugaraklar_reytingi_data] data: {e}")
+
+# maktab tabdirlar etl
+maktab_tadbirlar_data = None
+try:
+    maktab_tadbirlar_data = maktab_tadbirlar_extract(maktab_tadbirlar)
+    logger.info(f"[maktab tadbirlar] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [maktab tadbirlar] data: {e}")
+
+if  not maktab_tadbirlar_data.empty:
+    try:
+        maktab_tadbirlar_load(maktab_tadbirlar_data)
+        logger.info(f"[maktab tadbirlar] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [maktab tadbirlar] data: {e}")

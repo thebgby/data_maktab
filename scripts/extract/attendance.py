@@ -23,6 +23,6 @@ def extract_data(info: dict):
     df = df[[0, 1, 'Combined']]
 
     df.columns = ['Timestamp', 'Group', 'Combined Data']
-    print(df)
-
-extract_data(attendance)
+#     print(df)
+#
+# extract_data(attendance)

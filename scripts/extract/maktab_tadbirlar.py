@@ -13,19 +13,15 @@ def extract_data(info: dict):
     sheets_url = info["url"]
     sheets_conn = gs_connection(sheets_url)
 
-    #  TUGARAKLAR REYTINGI EXTRACT
-    sheets_data = sheets_conn.get_worksheet(0).get_values("A1:I")
+    #  maktab tadbirlar EXTRACT
+    sheets_data = sheets_conn.get_worksheet(0).get_values("B1:F")
 
     columns = [
-        "num",
-        "date",
-        "subject",
-        "name",
-        "group_name",
-        "defect",
-        "advantages",
-        "score",
-        "note"
+        "sana",
+        "tadbir_nomi",
+        "sinf",
+        "tadbir_turi",
+        "masul"
     ]
 
     df = pd.DataFrame(sheets_data[1:], columns=columns)
@@ -33,7 +29,7 @@ def extract_data(info: dict):
     df = df.dropna(how='all')
     df = df[df.isna().sum(axis=1) < 4]
 
-    df["date"] = df["date"].str.replace(",", ".", regex=False)
-    df["date"] = pd.to_datetime(df["date"], dayfirst=True, errors="coerce", format="%d.%m.%Y")
+    df["sana"] = df["sana"].str.replace(",", ".", regex=False)
+    df["sana"] = pd.to_datetime(df["sana"], dayfirst=True, errors="coerce", format="%d.%m.%Y")
     # print(df)
     return df

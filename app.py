@@ -8,17 +8,18 @@ from config import *
 from logs import logger
 
 
-# dars jadvali data etl
-nps_data = None
+# maktab tabdirlar etl
+maktab_tadbirlar_data = None
 try:
-    nps_data = nps_extract(nps)
-    logger.info(f"[nps] data successfully extracted")
+    maktab_tadbirlar_data = maktab_tadbirlar_extract(maktab_tadbirlar)
+    logger.info(f"[maktab tadbirlar] data successfully extracted")
 except Exception as e:
-    logger.error(f"error while extracting [nps] data: {e}")
+    logger.error(f"error while extracting [maktab tadbirlar] data: {e}")
 
-if  not nps_data.empty:
+if  not maktab_tadbirlar_data.empty:
     try:
-        nps_load(nps_data)
-        logger.info(f"[nps] data successfully loaded")
+        maktab_tadbirlar_load(maktab_tadbirlar_data)
+        logger.info(f"[maktab tadbirlar] data successfully loaded")
     except Exception as e:
-        logger.error(f"error while loading [nps] data: {e}")
+        logger.error(f"error while loading [maktab tadbirlar] data: {e}")
+

@@ -58,3 +58,11 @@ nps = {
 attendance = {
     "url": "https://docs.google.com/spreadsheets/d/1kR9o8hBWSrnKz2W9Y_SG2Hlsw5fbvaHAjbkiMgch5z8/edit?usp=sharing"
 }
+
+tugaraklar_reytingi = {
+    "url": "https://docs.google.com/spreadsheets/d/16PsrwYAv7mD8KE35j0PhFtfOSAmoADFRrpybUkuh_gQ/edit?usp=sharing"
+}
+
+maktab_tadbirlar = {
+    "url": "https://docs.google.com/spreadsheets/d/142JV3ZKkqf6B8QnKnxYXnA4KLYPEbhsQ-JHgNTP_t3g/edit?usp=sharing"
+}

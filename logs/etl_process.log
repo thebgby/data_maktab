@@ -1,0 +1,17 @@
+2024-12-11 05:35:57,710 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-11 05:35:57,796 - ETL_Logger - INFO | Database Connection Successful
+2024-12-11 05:37:57,491 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-11 05:37:57,560 - ETL_Logger - INFO | Database Connection Successful
+2024-12-11 05:40:11,847 - ETL_Logger - ERROR | error while loading [tugaraklar_reytingi_data] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11 05:40:48,287 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-11 05:40:48,346 - ETL_Logger - INFO | Database Connection Successful
+2024-12-11 05:40:48,405 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-11 06:26:38,941 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-11 06:26:38,963 - ETL_Logger - INFO | Database Connection Successful
+2024-12-11 06:26:39,011 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-11 06:27:07,820 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-11 06:27:07,841 - ETL_Logger - INFO | Database Connection Successful
+2024-12-11 06:27:07,863 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
