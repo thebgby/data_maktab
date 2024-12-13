@@ -106,3 +106,129 @@
 2024-12-09 12:04:38,493 - ETL_Logger - INFO | [kutubxona] data successfully extracted
 2024-12-09 12:04:38,495 - ETL_Logger - INFO | Database Connection Successful
 2024-12-09 12:04:39,121 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-12 09:56:44,412 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-12 09:56:44,600 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 09:56:44,902 - ETL_Logger - ERROR | error while loading [stipendiya] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 09:56:59,258 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-12 09:56:59,262 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 09:56:59,279 - ETL_Logger - ERROR | error while loading [maktab xodimlar] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 09:57:02,651 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-12 09:57:02,652 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 09:57:02,729 - ETL_Logger - ERROR | error while loading [pochemuchkadb] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 09:57:06,821 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-12 09:57:06,825 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 09:57:06,948 - ETL_Logger - ERROR | error while loading [dars jadvali] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 09:57:10,701 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-12 09:57:10,703 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 09:57:10,818 - ETL_Logger - ERROR | error while loading [psixolog test] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 09:57:14,754 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-12 09:57:14,757 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 09:57:14,893 - ETL_Logger - ERROR | error while loading [kutubxona] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 11:43:27,838 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-12 11:43:27,977 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 11:43:28,455 - ETL_Logger - ERROR | error while loading [stipendiya] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 11:43:43,227 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-12 11:43:43,228 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 11:43:43,510 - ETL_Logger - ERROR | error while loading [maktab xodimlar] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 11:43:46,356 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-12 11:43:46,357 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 11:43:46,884 - ETL_Logger - ERROR | error while loading [pochemuchkadb] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 11:43:48,857 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-12 11:43:48,858 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 11:43:49,084 - ETL_Logger - ERROR | error while loading [dars jadvali] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 11:43:52,968 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-12 11:43:52,969 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 11:43:53,133 - ETL_Logger - ERROR | error while loading [psixolog test] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 11:43:56,846 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-12 11:43:56,849 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 11:43:57,334 - ETL_Logger - ERROR | error while loading [kutubxona] data: (psycopg2.OperationalError) connection to server at "172.20.1.22", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-12 12:48:13,744 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-12 12:48:13,819 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 12:48:13,952 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-12 12:48:29,276 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-12 12:48:29,278 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 12:48:29,401 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-12 12:48:35,210 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-12 12:48:35,211 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 12:48:35,336 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-12 12:48:39,500 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-12 12:48:39,501 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 12:48:39,624 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-12 12:48:43,118 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-12 12:48:43,119 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 12:48:43,404 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-12 12:48:47,221 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-12 12:48:47,222 - ETL_Logger - INFO | Database Connection Successful
+2024-12-12 12:48:47,801 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-13 12:40:32,033 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-13 12:40:32,153 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:40:32,383 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-13 12:40:48,190 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-13 12:40:48,192 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:40:48,315 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-13 12:40:54,460 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-13 12:40:54,462 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:40:54,929 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-13 12:40:57,880 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-13 12:40:57,880 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:40:57,998 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-13 12:41:03,802 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-13 12:41:03,803 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:41:03,995 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-13 12:41:13,977 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-13 12:41:13,980 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:41:14,450 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-13 12:45:10,152 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-13 12:45:10,227 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:45:10,524 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-13 12:45:26,253 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-13 12:45:26,254 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:45:26,381 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-13 12:45:31,953 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-13 12:45:31,954 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:45:32,120 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-13 12:45:35,875 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-13 12:45:35,876 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:45:36,211 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-13 12:45:41,413 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-13 12:45:41,414 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:45:41,682 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-13 12:45:51,615 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-13 12:45:51,617 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 12:45:52,267 - ETL_Logger - INFO | [kutubxona] data successfully loaded
