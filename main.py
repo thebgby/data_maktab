@@ -114,7 +114,7 @@ if  not darsjadval_data.empty:
     except Exception as e:
         logger.error(f"error while loading [dars jadvali] data: {e}")
 
-# dars jadvali data etl
+# psixolog data etl
 psixolog_test_data = None
 try:
     psixolog_test_data = psixolog_test_extract(psixolog_test)
@@ -191,3 +191,20 @@ if  not maktab_tadbirlar_data.empty:
         logger.info(f"[maktab tadbirlar] data successfully loaded")
     except Exception as e:
         logger.error(f"error while loading [maktab tadbirlar] data: {e}")
+
+
+# dietolog data etl
+dietolog_data = None
+try:
+    dietolog_data = dietolog_extract(dietolog)
+    # print(type(psixolog_test_data))
+    logger.info(f"[dietolog] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [dietolog] data: {e}")
+
+if  dietolog_data:
+    try:
+        dietolog_load(dietolog_data)
+        logger.info(f"[dietolog] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [dietolog] data: {e}")

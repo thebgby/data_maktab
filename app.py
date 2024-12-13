@@ -8,18 +8,18 @@ from config import *
 from logs import logger
 
 
-# maktab tabdirlar etl
-maktab_tadbirlar_data = None
+# dietolog data etl
+dietolog_data = None
 try:
-    maktab_tadbirlar_data = maktab_tadbirlar_extract(maktab_tadbirlar)
-    logger.info(f"[maktab tadbirlar] data successfully extracted")
+    dietolog_data = dietolog_extract(dietolog)
+    # print(type(psixolog_test_data))
+    logger.info(f"[dietolog] data successfully extracted")
 except Exception as e:
-    logger.error(f"error while extracting [maktab tadbirlar] data: {e}")
+    logger.error(f"error while extracting [dietolog] data: {e}")
 
-if  not maktab_tadbirlar_data.empty:
+if  dietolog_data:
     try:
-        maktab_tadbirlar_load(maktab_tadbirlar_data)
-        logger.info(f"[maktab tadbirlar] data successfully loaded")
+        dietolog_load(dietolog_data)
+        logger.info(f"[dietolog] data successfully loaded")
     except Exception as e:
-        logger.error(f"error while loading [maktab tadbirlar] data: {e}")
-
+        logger.error(f"error while loading [dietolog] data: {e}")

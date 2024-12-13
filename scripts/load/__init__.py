@@ -10,3 +10,4 @@ from .kutubxona import load_data as kutubxona_load
 from .nps import load_data as nps_load
 from .tugaraklar_reytingi import load_data as tugaraklar_reytingi_load
 from .maktab_tadbirlar import load_data as maktab_tadbirlar_load
+from .dietolog import load_data as dietolog_load

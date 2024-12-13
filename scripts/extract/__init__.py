@@ -10,3 +10,4 @@ from .kutubxona import extract_data as kutubxona_extract
 from .nps import extract_data as nps_extract
 from .tugaraklar_reytingi import extract_data as tugaraklar_reytingi_extract
 from .maktab_tadbirlar import extract_data as maktab_tadbirlar_extract
+from .dietolog import extract_data as dietolog_extract

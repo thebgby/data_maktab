@@ -66,3 +66,7 @@ tugaraklar_reytingi = {
 maktab_tadbirlar = {
     "url": "https://docs.google.com/spreadsheets/d/142JV3ZKkqf6B8QnKnxYXnA4KLYPEbhsQ-JHgNTP_t3g/edit?usp=sharing"
 }
+
+dietolog = {
+    "url": "https://docs.google.com/spreadsheets/d/1z-oyVWHuOzDcWJIfcViLpdOcNZtFVOW680sOQ95JTDo/edit?usp=sharing"
+}

@@ -7,7 +7,6 @@ from typing import Dict
 from config import db_conn
 from pandas import DataFrame as df
 from sqlalchemy import text
-from logs import logger
 
 
 def load_data(data: Dict[str, df]):
@@ -38,5 +37,5 @@ def load_data(data: Dict[str, df]):
         """))
         c.commit()
     for table_name, df in data.items():
-        print(df.shape)
+        # print(df.shape)
         df.to_sql(table_name, conn, if_exists="append", index=False)
