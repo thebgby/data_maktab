@@ -165,7 +165,7 @@ if  not nps_data.empty:
 # tugaraklar reytingi etl
 tugaraklar_reytingi_data = None
 try:
-    tugaraklar_reytingi_data = tugaraklar_reytingi_extract(nps)
+    tugaraklar_reytingi_data = tugaraklar_reytingi_extract(tugaraklar_reytingi)
     logger.info(f"[tugaraklar_reytingi_data] data successfully extracted")
 except Exception as e:
     logger.error(f"error while extracting [tugaraklar_reytingi_data] data: {e}")

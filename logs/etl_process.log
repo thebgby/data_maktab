@@ -24,3 +24,25 @@
 2024-12-12 07:57:31,841 - ETL_Logger - INFO | [dietolog] data successfully extracted
 2024-12-12 07:57:31,866 - ETL_Logger - INFO | Database Connection Successful
 2024-12-12 07:57:31,890 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-13 13:07:33,958 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-13 13:07:34,033 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:07:34,100 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-13 13:07:49,011 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-13 13:07:49,012 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:07:49,077 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-13 13:07:54,488 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-13 13:07:54,489 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:07:54,534 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-13 13:07:57,886 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-13 13:07:57,886 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:07:57,928 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-13 13:08:03,119 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-13 13:08:03,120 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:08:03,167 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-13 13:08:12,228 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-13 13:08:12,229 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:08:12,330 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-13 13:08:18,191 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-13 13:08:18,191 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:08:18,216 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-13 13:08:21,560 - ETL_Logger - ERROR | error while extracting [tugaraklar_reytingi_data] data: 9 columns passed, passed data had 6 columns
