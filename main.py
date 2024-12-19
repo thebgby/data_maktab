@@ -208,3 +208,34 @@ if  dietolog_data:
         logger.info(f"[dietolog] data successfully loaded")
     except Exception as e:
         logger.error(f"error while loading [dietolog] data: {e}")
+
+# new pochemuchka
+n_pochemuchka_data = None
+try:
+    n_pochemuchka_data = n_pochemuchka_extract(new_pochemuchka)
+    logger.info(f"[n_pochemuchka] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [n_pochemuchka] data: {e}")
+
+if n_pochemuchka_data:
+    try:
+        n_pochemuchka_load(n_pochemuchka_data)
+        logger.info(f"[n_pochemuchka] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [n_pochemuchka] data: {e}")
+
+
+# new kutubxona
+n_kutubxona_data = None
+try:
+    n_kutubxona_data = n_kutubxona_extract(new_kutubxona)
+    logger.info(f"[n_kutubxona] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [n_kutubxona] data: {e}")
+
+if n_kutubxona_data:
+    try:
+        n_kutubxona_load(n_kutubxona_data)
+        logger.info(f"[n_kutubxona] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [n_kutubxona] data: {e}")

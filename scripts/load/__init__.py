@@ -11,3 +11,5 @@ from .nps import load_data as nps_load
 from .tugaraklar_reytingi import load_data as tugaraklar_reytingi_load
 from .maktab_tadbirlar import load_data as maktab_tadbirlar_load
 from .dietolog import load_data as dietolog_load
+from .new_pochemuchka import load_data as n_pochemuchka_load
+from .new_kutubxona import load_data as n_kutubxona_load

@@ -5,9 +5,7 @@ import numpy as np
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))  # for importing modules
 
 import pandas as pd
-from config import gs_connection, psixolog_test
-from logs import logger
-import time
+from config import gs_connection
 
 def extract_data(info: dict):
     sheets_url = info["url"]
@@ -33,7 +31,7 @@ def extract_data(info: dict):
     df = df[df.isna().sum(axis=1) < 4]
 
     df["date"] = df["date"].str.replace(",", ".", regex=False)
-    df["date"] = pd.to_datetime(df["date"], dayfirst=True, errors="coerce", format="%d.%m.%Y")
+    df["date"] = pd.to_datetime(df["date"], dayfirst=True, errors="coerce")
     # print(df.shape)
     final_data["psixolog_test_class"] = df
 
@@ -51,9 +49,10 @@ def extract_data(info: dict):
     df = pd.DataFrame(muloqot_data[1:], columns=columns)
     df = df.map(lambda x: np.nan if str(x).strip() == '' else x)
     df = df.dropna(how='all')
+    # print(df)
     df["date"] = df["date"].str.replace(",", ".", regex=False)
-    df["date"] = pd.to_datetime(df["date"], dayfirst=True, errors="coerce", format="%d-%m-%y")
-
+    df["date"] = pd.to_datetime(df["date"], dayfirst=True, errors="coerce")
+    # print(df)
     final_data["psixolog_test_muloqot"] = df
 
     return final_data

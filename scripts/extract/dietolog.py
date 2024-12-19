@@ -51,7 +51,7 @@ def extract_data(info: dict):
     df = df[df.isna().sum(axis=1) < 4]
 
     df["sana"] = df["sana"].str.replace(",", ".", regex=False)
-    df["sana"] = pd.to_datetime(df["sana"], dayfirst=True, errors="coerce", format="%d-%m-%y")
+    df["sana"] = pd.to_datetime(df["sana"], dayfirst=True, errors="coerce")
 
     final_data["menu_school"] = df
 

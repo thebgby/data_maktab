@@ -7,19 +7,17 @@ from scripts.load import *
 from config import *
 from logs import logger
 
-
-# dietolog data etl
-dietolog_data = None
+# new kutubxona
+n_kutubxona_data = None
 try:
-    dietolog_data = dietolog_extract(dietolog)
-    # print(type(psixolog_test_data))
-    logger.info(f"[dietolog] data successfully extracted")
+    n_kutubxona_data = n_kutubxona_extract(new_kutubxona)
+    logger.info(f"[n_kutubxona] data successfully extracted")
 except Exception as e:
-    logger.error(f"error while extracting [dietolog] data: {e}")
+    logger.error(f"error while extracting [n_kutubxona] data: {e}")
 
-if  dietolog_data:
+if n_kutubxona_data:
     try:
-        dietolog_load(dietolog_data)
-        logger.info(f"[dietolog] data successfully loaded")
+        n_kutubxona_load(n_kutubxona_data)
+        logger.info(f"[n_kutubxona] data successfully loaded")
     except Exception as e:
-        logger.error(f"error while loading [dietolog] data: {e}")
+        logger.error(f"error while loading [n_kutubxona] data: {e}")

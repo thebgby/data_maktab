@@ -70,3 +70,11 @@ maktab_tadbirlar = {
 dietolog = {
     "url": "https://docs.google.com/spreadsheets/d/1z-oyVWHuOzDcWJIfcViLpdOcNZtFVOW680sOQ95JTDo/edit?usp=sharing"
 }
+
+new_pochemuchka = {
+    "url": "https://docs.google.com/spreadsheets/d/17swEbGrwq-cRabnuFEvZLoDpGo5wG9-x_mHaPvp536E/edit?usp=sharing"
+}
+
+new_kutubxona = {
+    "url": "https://docs.google.com/spreadsheets/d/1RDF51IswYshc5yv_qyv96MLwBxY5IFVdfg9TNRjv4X4/edit?usp=sharing"
+}

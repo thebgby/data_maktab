@@ -11,3 +11,5 @@ from .nps import extract_data as nps_extract
 from .tugaraklar_reytingi import extract_data as tugaraklar_reytingi_extract
 from .maktab_tadbirlar import extract_data as maktab_tadbirlar_extract
 from .dietolog import extract_data as dietolog_extract
+from .new_pochemuchka import extract_data as n_pochemuchka_extract
+from .new_kutubxona import extract_data as n_kutubxona_extract
