@@ -136,6 +136,10 @@ def extract_data(info: dict):
     df = df.map(lambda x: np.nan if str(x).strip() == '' else x)
     df = df.dropna(how='all')
     df = df[df.isna().sum(axis=1) < 5]
+    df['summasi'] = df['summasi'].str.replace(' ', '')
+    df['narxi'] = df['narxi'].str.replace(' ', '')
+    # df['summasi'] = df['summasi'].astype(int)
+
 
     final_data["n_kutubxona_kerakli_konstovar"] = df
 
