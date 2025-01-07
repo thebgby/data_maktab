@@ -13,3 +13,4 @@ from .maktab_tadbirlar import load_data as maktab_tadbirlar_load
 from .dietolog import load_data as dietolog_load
 from .new_pochemuchka import load_data as n_pochemuchka_load
 from .new_kutubxona import load_data as n_kutubxona_load
+from .shifokor_qabul import load_data as shifokor_qabul_load

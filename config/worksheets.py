@@ -78,3 +78,7 @@ new_pochemuchka = {
 new_kutubxona = {
     "url": "https://docs.google.com/spreadsheets/d/1RDF51IswYshc5yv_qyv96MLwBxY5IFVdfg9TNRjv4X4/edit?usp=sharing"
 }
+
+shifokor_kundalik_qabul = {
+    "url": "https://docs.google.com/spreadsheets/d/1tJ_x8BHoIcmCZpuL71MzK6CZMKnW0on2vA8TJgARgLA/edit?usp=sharing"
+}

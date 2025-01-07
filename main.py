@@ -239,3 +239,18 @@ if n_kutubxona_data:
         logger.info(f"[n_kutubxona] data successfully loaded")
     except Exception as e:
         logger.error(f"error while loading [n_kutubxona] data: {e}")
+
+# new kutubxona
+shifokor_data = None
+try:
+    shifokor_data = shifokor_qabul_extract(shifokor_kundalik_qabul)
+    logger.info(f"[shifokor qabul] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [shifokor_qabul] data: {e}")
+
+if not shifokor_data.empty:
+    try:
+        shifokor_qabul_load(shifokor_data)
+        logger.info(f"[shifokor_qabul] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [shifokor_qabul] data: {e}")
