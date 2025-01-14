@@ -14,3 +14,7 @@ from .dietolog import load_data as dietolog_load
 from .new_pochemuchka import load_data as n_pochemuchka_load
 from .new_kutubxona import load_data as n_kutubxona_load
 from .shifokor_qabul import load_data as shifokor_qabul_load
+from .adminstratsiya import load_data as adminstratsiya_load
+from .psbaza import load_data as psbaza_load
+from .materialniy_atchot import load_data as ma_load
+from .printer_sheet import load_data as printer_load

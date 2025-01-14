@@ -82,3 +82,19 @@ new_kutubxona = {
 shifokor_kundalik_qabul = {
     "url": "https://docs.google.com/spreadsheets/d/1tJ_x8BHoIcmCZpuL71MzK6CZMKnW0on2vA8TJgARgLA/edit?usp=sharing"
 }
+
+adminstratsiya = {
+    "url": "https://docs.google.com/spreadsheets/d/1ecOi31dmPUXllkvSp9u4r9sTHkv8OtOSDlrvr89S_c4/edit?usp=sharing"
+}
+
+psbaza = {
+    "url": "https://docs.google.com/spreadsheets/d/1o8i0v2abipJmk-KGHsD0tE07hYVOzlqVV75Yxi_UHnA/edit?usp=sharing"
+}
+
+materialniy_atchot = {
+    "url": "https://docs.google.com/spreadsheets/d/1ui9JQk1RWH4ognJFMRnJM5kJjlmivBLFF3aHQbx-EkM/edit?usp=sharing"
+}
+
+printer_sheet = {
+    "url": "https://docs.google.com/spreadsheets/d/1CTpm13fX2eg8915wMO_o3BQzFkIfX5B2Qz_v8r2Rxyo/edit?usp=sharing"
+}

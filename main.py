@@ -240,7 +240,7 @@ if n_kutubxona_data:
     except Exception as e:
         logger.error(f"error while loading [n_kutubxona] data: {e}")
 
-# new kutubxona
+# shifokor qabul
 shifokor_data = None
 try:
     shifokor_data = shifokor_qabul_extract(shifokor_kundalik_qabul)
@@ -254,3 +254,63 @@ if not shifokor_data.empty:
         logger.info(f"[shifokor_qabul] data successfully loaded")
     except Exception as e:
         logger.error(f"error while loading [shifokor_qabul] data: {e}")
+
+# nadminstratsiya
+adminstratsiya_data = None
+try:
+    adminstratsiya_data = adminstratsiya_extract(adminstratsiya)
+    logger.info(f"[adminstratsiya] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [adminstratsiya] data: {e}")
+
+if not adminstratsiya_data.empty:
+    try:
+        adminstratsiya_load(adminstratsiya_data)
+        logger.info(f"[adminstratsiya] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [adminstratsiya] data: {e}")
+
+#ps_baza
+psbaza_data = None
+try:
+    psbaza_data = psbaza_extract(psbaza)
+    logger.info(f"[psbaza] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [psbaza] data: {e}")
+
+if psbaza_data:
+    try:
+        psbaza_load(psbaza_data)
+        logger.info(f"[psbaza] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [psbaza] data: {e}")
+
+# materialny atchot
+ma_data = None
+try:
+    ma_data = ma_extract(materialniy_atchot)
+    logger.info(f"[materalniy atchot] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [materalniy atchot] data: {e}")
+
+if not ma_data.empty:
+    try:
+        ma_load(ma_data)
+        logger.info(f"[materalniy atchot] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [materalniy atchot] data: {e}")
+
+ # printer sheet
+printer_data = None
+try:
+    printer_data = printer_extract(printer_sheet)
+    logger.info(f"[printer sheet] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [printer sheet] data: {e}")
+
+if  not printer_data.empty:
+    try:
+        printer_load(printer_data)
+        logger.info(f"[printer sheet] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [printer sheet] data: {e}")

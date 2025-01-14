@@ -18,6 +18,7 @@ def extract_data(info: dict):
     columns = [
         "no",
         "name",
+        "group"
         "month_1",
         "note_1",
         "month_2",

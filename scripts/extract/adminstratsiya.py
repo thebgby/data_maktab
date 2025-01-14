@@ -1,7 +1,7 @@
 import sys
 import os
 import numpy as np
-import time
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))  # for importing modules
 
 import pandas as pd
@@ -12,16 +12,17 @@ def extract_data(info: dict):
     sheets_conn = gs_connection(sheets_url)
 
     # kundalik qabul
-    sheets_data = sheets_conn.get_worksheet(0).get_values("A1:G")
+    sheets_data = sheets_conn.get_worksheet(0).get_values("A1:H")
 
     columns = [
+        "num",
         "sana",
-        "ism_familiya",
-        "sinfi",
-        "shikoyati",
-        "holati",
-        "muolaja",
-        "yechim"
+        "xarajat_mazmuni",
+        "ulchov_birligi",
+        "soni",
+        "narxi",
+        "summasi",
+        "xarajat_manbasi"
     ]
 
     df = pd.DataFrame(sheets_data[1:], columns=columns)
@@ -31,6 +32,15 @@ def extract_data(info: dict):
 
     df["sana"] = df["sana"].str.replace(",", ".", regex=False)
     df["sana"] = pd.to_datetime(df["sana"], dayfirst=True, errors="coerce", format="%d.%m.%Y")
-    # print(df)
-    time.sleep(5)
+
+    for i in ["num", "soni", "narxi", "summasi"]:
+        df[i] = (
+            df[i].astype(str)  
+            .str.replace(r'\s+', '', regex=True)  
+            .str.replace(r'\.', '', regex=True)  
+            .str.replace(r',', '.', regex=True)  
+            .replace('', np.nan) 
+            .astype(float) 
+        )
+
     return df

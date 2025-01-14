@@ -14,3 +14,7 @@ from .dietolog import extract_data as dietolog_extract
 from .new_pochemuchka import extract_data as n_pochemuchka_extract
 from .new_kutubxona import extract_data as n_kutubxona_extract
 from .shifokor_qabul import extract_data as shifokor_qabul_extract
+from .adminstratsiya import extract_data as adminstratsiya_extract
+from .psbaza import extract_data as psbaza_extract
+from .materialniy_atchot import extract_data as ma_extract
+from .printer_sheet import extract_data as printer_extract

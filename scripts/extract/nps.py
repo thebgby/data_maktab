@@ -6,6 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'
 import pandas as pd
 from config import gs_connection
 import  numpy as np
+import time
 
 
 def extract_data(info: dict):
@@ -34,4 +35,5 @@ def extract_data(info: dict):
         df["sheet_name"] = worksheet.title
 
         combined_df = pd.concat([combined_df, df])
+        time.sleep(5)
     return combined_df
