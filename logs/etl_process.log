@@ -46,3 +46,938 @@
 2024-12-13 13:08:18,191 - ETL_Logger - INFO | Database Connection Successful
 2024-12-13 13:08:18,216 - ETL_Logger - INFO | [nps] data successfully loaded
 2024-12-13 13:08:21,560 - ETL_Logger - ERROR | error while extracting [tugaraklar_reytingi_data] data: 9 columns passed, passed data had 6 columns
+2024-12-13 13:42:55,383 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-13 13:42:58,645 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:42:58,949 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-13 13:43:14,728 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-13 13:43:14,729 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:14,991 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-13 13:43:21,046 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-13 13:43:21,047 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:21,376 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-13 13:43:25,075 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-13 13:43:25,077 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:25,345 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-13 13:43:30,721 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-13 13:43:30,722 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:31,082 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-13 13:43:40,474 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-13 13:43:40,475 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:41,025 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-13 13:43:46,565 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-13 13:43:46,566 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:46,784 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-13 13:43:50,055 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-13 13:43:50,056 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:50,332 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-13 13:43:52,925 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-13 13:43:52,925 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:53,525 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-13 13:43:59,423 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-13 13:43:59,424 - ETL_Logger - INFO | Database Connection Successful
+2024-12-13 13:43:59,818 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-16 10:30:10,601 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-16 10:30:10,700 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:30:11,210 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-16 10:30:27,044 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-16 10:30:27,044 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:30:28,350 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-16 10:30:34,430 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-16 10:30:34,432 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:30:35,863 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-16 10:30:39,815 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-16 10:30:39,816 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:30:41,269 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-16 10:30:47,133 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-16 10:30:47,134 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:30:50,087 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-16 10:30:59,720 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-16 10:30:59,721 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:31:00,148 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-16 10:31:04,809 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-16 10:31:04,810 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:31:04,948 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-16 10:31:08,832 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-16 10:31:08,835 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:31:09,035 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-16 10:31:12,755 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-16 10:31:12,756 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:31:13,188 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-16 10:31:16,900 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-16 10:31:16,903 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:31:17,081 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-16 10:35:03,691 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-16 10:35:03,779 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:04,141 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-16 10:35:20,164 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-16 10:35:20,165 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:20,322 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-16 10:35:25,966 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-16 10:35:25,968 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:26,348 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-16 10:35:29,883 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-16 10:35:29,885 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:30,076 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-16 10:35:36,121 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-16 10:35:36,122 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:36,345 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-16 10:35:44,087 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-16 10:35:44,088 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:45,455 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-16 10:35:50,400 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-16 10:35:50,401 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:50,565 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-16 10:35:54,159 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-16 10:35:54,160 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:54,683 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-16 10:35:58,172 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-16 10:35:58,174 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:35:58,346 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-16 10:36:02,796 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-16 10:36:02,799 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:36:02,951 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-16 10:44:17,396 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-16 10:44:17,499 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:44:17,659 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-16 10:44:33,965 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-16 10:44:33,967 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:44:34,178 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-16 10:44:40,211 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-16 10:44:40,213 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:44:40,395 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-16 10:44:44,057 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-16 10:44:44,058 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:44:44,274 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-16 10:44:50,098 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-16 10:44:50,099 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:44:50,430 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-16 10:45:00,346 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-16 10:45:00,348 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:45:00,848 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-16 10:45:06,864 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-16 10:45:06,866 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:45:07,045 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-16 10:45:10,974 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-16 10:45:10,976 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:45:11,097 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-16 10:45:14,230 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-16 10:45:14,232 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:45:14,356 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-16 10:45:19,500 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-16 10:45:19,502 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 10:45:19,654 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-16 11:02:10,816 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-16 11:02:10,880 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:02:11,165 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-16 11:02:26,767 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-16 11:02:26,768 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:02:27,112 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-16 11:02:32,614 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-16 11:02:32,617 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:02:32,781 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-16 11:02:35,707 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-16 11:02:35,708 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:02:35,877 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-16 11:02:41,051 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-16 11:02:41,053 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:02:41,364 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-16 11:02:49,955 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-16 11:02:49,956 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:02:50,502 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-16 11:02:55,969 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-16 11:02:55,970 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:02:56,088 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-16 11:02:59,570 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-16 11:02:59,571 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:02:59,694 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-16 11:03:03,863 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-16 11:03:03,863 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:03:03,962 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-16 11:03:09,662 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-16 11:03:09,662 - ETL_Logger - INFO | Database Connection Successful
+2024-12-16 11:03:09,956 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-17 10:51:33,348 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-17 10:51:33,515 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:51:33,655 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-17 10:51:48,810 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-17 10:51:48,811 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:51:48,929 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-17 10:51:54,839 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-17 10:51:54,839 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:51:55,028 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-17 10:51:59,091 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-17 10:51:59,091 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:51:59,279 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-17 10:52:04,955 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-17 10:52:04,956 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:52:05,331 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-17 10:52:15,689 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-17 10:52:15,691 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:52:16,089 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-17 10:52:21,740 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-17 10:52:21,740 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:52:21,852 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-17 10:52:25,144 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-17 10:52:25,145 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:52:25,241 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-17 10:52:28,886 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-17 10:52:28,888 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:52:29,004 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-17 10:52:34,993 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-17 10:52:34,994 - ETL_Logger - INFO | Database Connection Successful
+2024-12-17 10:52:35,140 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-18 10:22:38,562 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-18 10:22:38,692 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:22:38,923 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-18 10:22:51,812 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-18 10:22:51,813 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:22:51,997 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-18 10:22:57,863 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-18 10:22:57,863 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:22:58,053 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-18 10:23:02,176 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-18 10:23:02,177 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:23:02,379 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-18 10:23:08,320 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-18 10:23:08,322 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:23:08,641 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-18 10:23:19,709 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-18 10:23:19,710 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:23:21,157 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-18 10:23:26,951 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-18 10:23:26,952 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:23:27,113 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-18 10:23:30,334 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-18 10:23:30,335 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:23:30,662 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-18 10:23:34,229 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-18 10:23:34,230 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:23:34,385 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-18 10:23:39,176 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-18 10:23:39,177 - ETL_Logger - INFO | Database Connection Successful
+2024-12-18 10:23:39,404 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-20 10:17:39,004 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-20 10:17:39,154 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:17:39,678 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-20 10:17:55,957 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-20 10:17:55,961 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:17:56,071 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-20 10:18:00,152 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-20 10:18:00,152 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:00,822 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-20 10:18:03,073 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-20 10:18:03,074 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:03,199 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-20 10:18:09,492 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-20 10:18:09,493 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:10,274 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-20 10:18:20,713 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-20 10:18:20,716 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:21,871 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-20 10:18:27,874 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-20 10:18:27,875 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:28,039 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-20 10:18:31,381 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-20 10:18:31,382 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:31,924 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-20 10:18:35,572 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-20 10:18:35,574 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:35,851 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-20 10:18:41,528 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-20 10:18:41,533 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:41,761 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-20 10:18:46,379 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2024-12-20 10:18:46,380 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:18:47,042 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2024-12-20 10:19:00,220 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2024-12-20 10:19:00,223 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:19:00,998 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 8973 characters truncated ... )s), (%(num__101)s, %(nomi__101)s, %(narxi__101)s, %(soni__101)s, %(summasi__101)s, %(status__101)s)]
+[parameters: {'status__0': 'kelgan', 'summasi__0': '14000', 'nomi__0': 'Ozbekiston xaritasi', 'narxi__0': '7000', 'soni__0': '2', 'num__0': '1', 'status__1': 'kelgan', 'summasi__1': '14000', 'nomi__1': 'Dunyo xaritasi', 'narxi__1': '7000', 'soni__1': '2', 'num__1': '2', 'status__2': 'kelgan', 'summasi__2': '330 000', 'nomi__2': 'Penal ogil', 'narxi__2': '11000', 'soni__2': '30', 'num__2': '3', 'status__3': 'kelgan', 'summasi__3': '330 000', 'nomi__3': 'penal qiz', 'narxi__3': '11000', 'soni__3': '30', 'num__3': '4', 'status__4': 'kelgan', 'summasi__4': '20 000', 'nomi__4': 'HB qalam', 'narxi__4': '4000', 'soni__4': '5', 'num__4': '5', 'status__5': 'kelgan', 'summasi__5': '100 000', 'nomi__5': '607 banka ruchka 40 li', 'narxi__5': '20 000', 'soni__5': '5', 'num__5': '6', 'status__6': 'kelgan', 'summasi__6': '36 000', 'nomi__6': 'tetrad qalin', 'narxi__6': '9000', 'soni__6': '40', 'num__6': '7', 'status__7': 'kelgan', 'summasi__7': '30 000', 'nomi__7': '2 tomonlama  sqoch', 'narxi__7': '6000', 'soni__7': '5', 'num__7': '8', 'status__8': 'kelgan', 'summasi__8': '60 000' ... 512 parameters truncated ... 'soni__93': '10 пачка', 'num__93': '67', 'status__94': 'kerak', 'summasi__94': '45  000', 'nomi__94': 'большие ножницы', 'narxi__94': '9 000', 'soni__94': '5 шт', 'num__94': '1', 'status__95': 'kerak', 'summasi__95': '220 000', 'nomi__95': 'Атлас и контурная карта 5-кл узб', 'narxi__95': '22 000', 'soni__95': '10 шт', 'num__95': '2', 'status__96': 'kerak', 'summasi__96': '220 000', 'nomi__96': 'Атлас и контурная карта 6-кл рус', 'narxi__96': '22 000', 'soni__96': '10 шт', 'num__96': '3', 'status__97': 'kerak', 'summasi__97': '220 000', 'nomi__97': 'Атлас и контурная карта 8-кл рус', 'narxi__97': '22 000', 'soni__97': '10 шт', 'num__97': '4', 'status__98': 'kerak', 'summasi__98': '100 000', 'nomi__98': ' тетрадь клетка 12 листов', 'narxi__98': '1000', 'soni__98': '100 шт', 'num__98': '5', 'status__99': 'kerak', 'summasi__99': '900 000', 'nomi__99': 'общая клетка 96 листов', 'narxi__99': '30 000', 'soni__99': '30 шт', 'num__99': '6', 'status__100': 'kerak', 'summasi__100': '100 000', 'nomi__100': 'Плакат', 'narxi__100': '20 000', 'soni__100': '5 шт', 'num__100': '7', 'status__101': 'kerak', 'summasi__101': '90 000', 'nomi__101': 'Простой ручка', 'narxi__101': '45 000', 'soni__101': '2 пачка', 'num__101': '8'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2024-12-20 10:34:17,879 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-20 10:34:18,212 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:34:18,693 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-20 10:34:35,005 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-20 10:34:35,006 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:34:35,131 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-20 10:34:40,945 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-20 10:34:40,947 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:34:41,067 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-20 10:34:44,703 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-20 10:34:44,704 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:34:44,841 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-20 10:34:51,157 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-20 10:34:51,159 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:34:51,346 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-20 10:35:01,575 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-20 10:35:01,576 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:35:01,910 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-20 10:35:07,977 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-20 10:35:07,978 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:35:08,068 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-20 10:35:11,212 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-20 10:35:11,214 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:35:11,303 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-20 10:35:15,032 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-20 10:35:15,033 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:35:15,425 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-20 10:35:20,925 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-20 10:35:20,926 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:35:21,123 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-20 10:35:26,034 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2024-12-20 10:35:26,036 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:35:26,174 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2024-12-20 10:35:38,570 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2024-12-20 10:35:38,571 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:35:39,032 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 8973 characters truncated ... )s), (%(num__101)s, %(nomi__101)s, %(narxi__101)s, %(soni__101)s, %(summasi__101)s, %(status__101)s)]
+[parameters: {'summasi__0': '14000', 'narxi__0': '7000', 'status__0': 'kelgan', 'nomi__0': 'Ozbekiston xaritasi', 'soni__0': '2', 'num__0': '1', 'summasi__1': '14000', 'narxi__1': '7000', 'status__1': 'kelgan', 'nomi__1': 'Dunyo xaritasi', 'soni__1': '2', 'num__1': '2', 'summasi__2': '330 000', 'narxi__2': '11000', 'status__2': 'kelgan', 'nomi__2': 'Penal ogil', 'soni__2': '30', 'num__2': '3', 'summasi__3': '330 000', 'narxi__3': '11000', 'status__3': 'kelgan', 'nomi__3': 'penal qiz', 'soni__3': '30', 'num__3': '4', 'summasi__4': '20 000', 'narxi__4': '4000', 'status__4': 'kelgan', 'nomi__4': 'HB qalam', 'soni__4': '5', 'num__4': '5', 'summasi__5': '100 000', 'narxi__5': '20 000', 'status__5': 'kelgan', 'nomi__5': '607 banka ruchka 40 li', 'soni__5': '5', 'num__5': '6', 'summasi__6': '36 000', 'narxi__6': '9000', 'status__6': 'kelgan', 'nomi__6': 'tetrad qalin', 'soni__6': '40', 'num__6': '7', 'summasi__7': '30 000', 'narxi__7': '6000', 'status__7': 'kelgan', 'nomi__7': '2 tomonlama  sqoch', 'soni__7': '5', 'num__7': '8', 'summasi__8': '60 000', 'narxi__8': '12000' ... 512 parameters truncated ... 'soni__93': '10 пачка', 'num__93': '67', 'summasi__94': '45  000', 'narxi__94': '9 000', 'status__94': 'kerak', 'nomi__94': 'большие ножницы', 'soni__94': '5 шт', 'num__94': '1', 'summasi__95': '220 000', 'narxi__95': '22 000', 'status__95': 'kerak', 'nomi__95': 'Атлас и контурная карта 5-кл узб', 'soni__95': '10 шт', 'num__95': '2', 'summasi__96': '220 000', 'narxi__96': '22 000', 'status__96': 'kerak', 'nomi__96': 'Атлас и контурная карта 6-кл рус', 'soni__96': '10 шт', 'num__96': '3', 'summasi__97': '220 000', 'narxi__97': '22 000', 'status__97': 'kerak', 'nomi__97': 'Атлас и контурная карта 8-кл рус', 'soni__97': '10 шт', 'num__97': '4', 'summasi__98': '100 000', 'narxi__98': '1000', 'status__98': 'kerak', 'nomi__98': ' тетрадь клетка 12 листов', 'soni__98': '100 шт', 'num__98': '5', 'summasi__99': '900 000', 'narxi__99': '30 000', 'status__99': 'kerak', 'nomi__99': 'общая клетка 96 листов', 'soni__99': '30 шт', 'num__99': '6', 'summasi__100': '100 000', 'narxi__100': '20 000', 'status__100': 'kerak', 'nomi__100': 'Плакат', 'soni__100': '5 шт', 'num__100': '7', 'summasi__101': '90 000', 'narxi__101': '45 000', 'status__101': 'kerak', 'nomi__101': 'Простой ручка', 'soni__101': '2 пачка', 'num__101': '8'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2024-12-20 10:37:16,470 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-20 10:37:16,552 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:37:17,828 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-20 10:37:33,490 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-20 10:37:33,491 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:37:33,620 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-20 10:37:39,262 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-20 10:37:39,263 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:37:39,396 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-20 10:37:42,957 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-20 10:37:42,958 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:37:43,315 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-20 10:37:49,152 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-20 10:37:49,153 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:37:49,367 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-20 10:37:58,243 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-20 10:37:58,245 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:37:58,719 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-20 10:38:04,458 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-20 10:38:04,459 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:38:04,570 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-20 10:38:07,572 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-20 10:38:07,574 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:38:07,679 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-20 10:38:11,148 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-20 10:38:11,149 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:38:11,252 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-20 10:38:16,876 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-20 10:38:16,877 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:38:17,049 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-20 10:38:21,755 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2024-12-20 10:38:21,757 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:38:21,896 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2024-12-20 10:38:32,962 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2024-12-20 10:38:32,964 - ETL_Logger - INFO | Database Connection Successful
+2024-12-20 10:38:33,347 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 8973 characters truncated ... )s), (%(num__101)s, %(nomi__101)s, %(narxi__101)s, %(soni__101)s, %(summasi__101)s, %(status__101)s)]
+[parameters: {'status__0': 'kelgan', 'nomi__0': 'Ozbekiston xaritasi', 'summasi__0': '14000', 'num__0': '1', 'soni__0': '2', 'narxi__0': '7000', 'status__1': 'kelgan', 'nomi__1': 'Dunyo xaritasi', 'summasi__1': '14000', 'num__1': '2', 'soni__1': '2', 'narxi__1': '7000', 'status__2': 'kelgan', 'nomi__2': 'Penal ogil', 'summasi__2': '330 000', 'num__2': '3', 'soni__2': '30', 'narxi__2': '11000', 'status__3': 'kelgan', 'nomi__3': 'penal qiz', 'summasi__3': '330 000', 'num__3': '4', 'soni__3': '30', 'narxi__3': '11000', 'status__4': 'kelgan', 'nomi__4': 'HB qalam', 'summasi__4': '20 000', 'num__4': '5', 'soni__4': '5', 'narxi__4': '4000', 'status__5': 'kelgan', 'nomi__5': '607 banka ruchka 40 li', 'summasi__5': '100 000', 'num__5': '6', 'soni__5': '5', 'narxi__5': '20 000', 'status__6': 'kelgan', 'nomi__6': 'tetrad qalin', 'summasi__6': '36 000', 'num__6': '7', 'soni__6': '40', 'narxi__6': '9000', 'status__7': 'kelgan', 'nomi__7': '2 tomonlama  sqoch', 'summasi__7': '30 000', 'num__7': '8', 'soni__7': '5', 'narxi__7': '6000', 'status__8': 'kelgan', 'nomi__8': 'skripka' ... 512 parameters truncated ... 'soni__93': '10 пачка', 'narxi__93': '3 500', 'status__94': 'kerak', 'nomi__94': 'большие ножницы', 'summasi__94': '45  000', 'num__94': '1', 'soni__94': '5 шт', 'narxi__94': '9 000', 'status__95': 'kerak', 'nomi__95': 'Атлас и контурная карта 5-кл узб', 'summasi__95': '220 000', 'num__95': '2', 'soni__95': '10 шт', 'narxi__95': '22 000', 'status__96': 'kerak', 'nomi__96': 'Атлас и контурная карта 6-кл рус', 'summasi__96': '220 000', 'num__96': '3', 'soni__96': '10 шт', 'narxi__96': '22 000', 'status__97': 'kerak', 'nomi__97': 'Атлас и контурная карта 8-кл рус', 'summasi__97': '220 000', 'num__97': '4', 'soni__97': '10 шт', 'narxi__97': '22 000', 'status__98': 'kerak', 'nomi__98': ' тетрадь клетка 12 листов', 'summasi__98': '100 000', 'num__98': '5', 'soni__98': '100 шт', 'narxi__98': '1000', 'status__99': 'kerak', 'nomi__99': 'общая клетка 96 листов', 'summasi__99': '900 000', 'num__99': '6', 'soni__99': '30 шт', 'narxi__99': '30 000', 'status__100': 'kerak', 'nomi__100': 'Плакат', 'summasi__100': '100 000', 'num__100': '7', 'soni__100': '5 шт', 'narxi__100': '20 000', 'status__101': 'kerak', 'nomi__101': 'Простой ручка', 'summasi__101': '90 000', 'num__101': '8', 'soni__101': '2 пачка', 'narxi__101': '45 000'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2024-12-21 10:37:52,034 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-21 10:37:52,157 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:37:52,315 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-21 10:38:08,227 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-21 10:38:08,228 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:08,338 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-21 10:38:14,202 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-21 10:38:14,203 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:14,353 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-21 10:38:17,917 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-21 10:38:17,918 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:18,039 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-21 10:38:23,245 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-21 10:38:23,246 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:23,423 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-21 10:38:33,108 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-21 10:38:33,110 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:33,502 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-21 10:38:39,557 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-21 10:38:39,558 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:39,688 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-21 10:38:42,944 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-21 10:38:42,944 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:43,052 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-21 10:38:46,744 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-21 10:38:46,745 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:46,869 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-21 10:38:50,178 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-21 10:38:50,180 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:51,038 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-21 10:38:55,162 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2024-12-21 10:38:55,163 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:38:55,671 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2024-12-21 10:39:06,880 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2024-12-21 10:39:06,882 - ETL_Logger - INFO | Database Connection Successful
+2024-12-21 10:39:07,284 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 10622 characters truncated ... )s), (%(num__118)s, %(nomi__118)s, %(narxi__118)s, %(soni__118)s, %(summasi__118)s, %(status__118)s)]
+[parameters: {'nomi__0': 'Ozbekiston xaritasi', 'soni__0': '2', 'status__0': 'kelgan', 'summasi__0': '14000', 'narxi__0': '7000', 'num__0': '1', 'nomi__1': 'Dunyo xaritasi', 'soni__1': '2', 'status__1': 'kelgan', 'summasi__1': '14000', 'narxi__1': '7000', 'num__1': '2', 'nomi__2': 'Penal ogil', 'soni__2': '30', 'status__2': 'kelgan', 'summasi__2': '330 000', 'narxi__2': '11000', 'num__2': '3', 'nomi__3': 'penal qiz', 'soni__3': '30', 'status__3': 'kelgan', 'summasi__3': '330 000', 'narxi__3': '11000', 'num__3': '4', 'nomi__4': 'HB qalam', 'soni__4': '5', 'status__4': 'kelgan', 'summasi__4': '20 000', 'narxi__4': '4000', 'num__4': '5', 'nomi__5': '607 banka ruchka 40 li', 'soni__5': '5', 'status__5': 'kelgan', 'summasi__5': '100 000', 'narxi__5': '20 000', 'num__5': '6', 'nomi__6': 'tetrad qalin', 'soni__6': '40', 'status__6': 'kelgan', 'summasi__6': '36 000', 'narxi__6': '9000', 'num__6': '7', 'nomi__7': '2 tomonlama  sqoch', 'soni__7': '5', 'status__7': 'kelgan', 'summasi__7': '30 000', 'narxi__7': '6000', 'num__7': '8', 'nomi__8': 'skripka', 'soni__8': '5' ... 614 parameters truncated ... 'narxi__110': None, 'num__110': '5', 'nomi__111': 'фломастер', 'soni__111': '30 шт', 'status__111': 'kerak', 'summasi__111': None, 'narxi__111': None, 'num__111': '6', 'nomi__112': 'цветной мел', 'soni__112': '5 пачка', 'status__112': 'kerak', 'summasi__112': None, 'narxi__112': None, 'num__112': '7', 'nomi__113': 'цветной картон бумага', 'soni__113': '30 шт', 'status__113': 'kerak', 'summasi__113': None, 'narxi__113': None, 'num__113': '8', 'nomi__114': '24/6 STAPLES степлер уки', 'soni__114': '5 пачка', 'status__114': 'kerak', 'summasi__114': None, 'narxi__114': None, 'num__114': '9', 'nomi__115': 'Набор цветных гелевых ручек', 'soni__115': '5 пачка', 'status__115': 'kerak', 'summasi__115': None, 'narxi__115': None, 'num__115': '10', 'nomi__116': 'общая тетрадь клетка', 'soni__116': '50 шт', 'status__116': 'kerak', 'summasi__116': None, 'narxi__116': None, 'num__116': '11', 'nomi__117': '1-4 кл тет линия тонкий (рус)', 'soni__117': '100 шт', 'status__117': 'kerak', 'summasi__117': None, 'narxi__117': None, 'num__117': '12', 'nomi__118': '1-4 кл тет клетка тонкий (рус)', 'soni__118': '100 шт', 'status__118': 'kerak', 'summasi__118': None, 'narxi__118': None, 'num__118': '13'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2024-12-23 09:24:30,419 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-23 09:24:30,599 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:24:30,755 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-23 09:24:46,956 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-23 09:24:46,959 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:24:47,092 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-23 09:24:52,904 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-23 09:24:52,905 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:24:53,037 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-23 09:24:57,980 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-23 09:24:57,981 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:24:58,126 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-23 09:25:04,604 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-23 09:25:04,605 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:25:05,279 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-23 09:25:12,040 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-23 09:25:12,041 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:25:12,450 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-23 09:25:18,398 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-23 09:25:18,400 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:25:18,493 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-23 09:25:22,367 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-23 09:25:22,370 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:25:22,481 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-23 09:25:26,178 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-23 09:25:26,180 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:25:26,296 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-23 09:25:32,204 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-23 09:25:32,205 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:25:32,399 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-23 09:25:37,319 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2024-12-23 09:25:37,320 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:25:37,557 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2024-12-23 09:25:48,583 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2024-12-23 09:25:48,587 - ETL_Logger - INFO | Database Connection Successful
+2024-12-23 09:25:49,502 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 10622 characters truncated ... )s), (%(num__118)s, %(nomi__118)s, %(narxi__118)s, %(soni__118)s, %(summasi__118)s, %(status__118)s)]
+[parameters: {'num__0': '1', 'summasi__0': '14000', 'nomi__0': 'Ozbekiston xaritasi', 'status__0': 'kelgan', 'narxi__0': '7000', 'soni__0': '2', 'num__1': '2', 'summasi__1': '14000', 'nomi__1': 'Dunyo xaritasi', 'status__1': 'kelgan', 'narxi__1': '7000', 'soni__1': '2', 'num__2': '3', 'summasi__2': '330 000', 'nomi__2': 'Penal ogil', 'status__2': 'kelgan', 'narxi__2': '11000', 'soni__2': '30', 'num__3': '4', 'summasi__3': '330 000', 'nomi__3': 'penal qiz', 'status__3': 'kelgan', 'narxi__3': '11000', 'soni__3': '30', 'num__4': '5', 'summasi__4': '20 000', 'nomi__4': 'HB qalam', 'status__4': 'kelgan', 'narxi__4': '4000', 'soni__4': '5', 'num__5': '6', 'summasi__5': '100 000', 'nomi__5': '607 banka ruchka 40 li', 'status__5': 'kelgan', 'narxi__5': '20 000', 'soni__5': '5', 'num__6': '7', 'summasi__6': '36 000', 'nomi__6': 'tetrad qalin', 'status__6': 'kelgan', 'narxi__6': '9000', 'soni__6': '40', 'num__7': '8', 'summasi__7': '30 000', 'nomi__7': '2 tomonlama  sqoch', 'status__7': 'kelgan', 'narxi__7': '6000', 'soni__7': '5', 'num__8': '9', 'summasi__8': '60 000' ... 614 parameters truncated ... 'narxi__110': None, 'soni__110': '5 пачка', 'num__111': '6', 'summasi__111': None, 'nomi__111': 'фломастер', 'status__111': 'kerak', 'narxi__111': None, 'soni__111': '30 шт', 'num__112': '7', 'summasi__112': None, 'nomi__112': 'цветной мел', 'status__112': 'kerak', 'narxi__112': None, 'soni__112': '5 пачка', 'num__113': '8', 'summasi__113': None, 'nomi__113': 'цветной картон бумага', 'status__113': 'kerak', 'narxi__113': None, 'soni__113': '30 шт', 'num__114': '9', 'summasi__114': None, 'nomi__114': '24/6 STAPLES степлер уки', 'status__114': 'kerak', 'narxi__114': None, 'soni__114': '5 пачка', 'num__115': '10', 'summasi__115': None, 'nomi__115': 'Набор цветных гелевых ручек', 'status__115': 'kerak', 'narxi__115': None, 'soni__115': '5 пачка', 'num__116': '11', 'summasi__116': None, 'nomi__116': 'общая тетрадь клетка', 'status__116': 'kerak', 'narxi__116': None, 'soni__116': '50 шт', 'num__117': '12', 'summasi__117': None, 'nomi__117': '1-4 кл тет линия тонкий (рус)', 'status__117': 'kerak', 'narxi__117': None, 'soni__117': '100 шт', 'num__118': '13', 'summasi__118': None, 'nomi__118': '1-4 кл тет клетка тонкий (рус)', 'status__118': 'kerak', 'narxi__118': None, 'soni__118': '100 шт'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2024-12-28 10:35:12,125 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-28 10:35:12,316 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:35:12,601 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-28 10:35:28,253 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-28 10:35:28,255 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:35:28,382 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-28 10:35:34,245 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-28 10:35:34,248 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:35:34,380 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-28 10:35:37,861 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-28 10:35:37,862 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:35:38,027 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-28 10:35:43,471 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-28 10:35:43,474 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:35:43,723 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-28 10:35:52,898 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-28 10:35:52,899 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:35:53,259 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-28 10:35:58,091 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-28 10:35:58,092 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:35:58,202 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-28 10:36:02,116 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-28 10:36:02,117 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:36:02,443 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-28 10:36:06,604 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-28 10:36:06,605 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:36:06,961 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-28 10:36:12,626 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-28 10:36:12,627 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:36:12,793 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-28 10:36:18,160 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2024-12-28 10:36:18,161 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:36:18,323 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2024-12-28 10:36:31,812 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2024-12-28 10:36:31,814 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:36:33,576 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 11980 characters truncated ... )s), (%(num__132)s, %(nomi__132)s, %(narxi__132)s, %(soni__132)s, %(summasi__132)s, %(status__132)s)]
+[parameters: {'summasi__0': '14000', 'num__0': '1', 'narxi__0': '7000', 'soni__0': '2', 'nomi__0': 'Ozbekiston xaritasi', 'status__0': 'kelgan', 'summasi__1': '14000', 'num__1': '2', 'narxi__1': '7000', 'soni__1': '2', 'nomi__1': 'Dunyo xaritasi', 'status__1': 'kelgan', 'summasi__2': '330 000', 'num__2': '3', 'narxi__2': '11000', 'soni__2': '30', 'nomi__2': 'Penal ogil', 'status__2': 'kelgan', 'summasi__3': '330 000', 'num__3': '4', 'narxi__3': '11000', 'soni__3': '30', 'nomi__3': 'penal qiz', 'status__3': 'kelgan', 'summasi__4': '20 000', 'num__4': '5', 'narxi__4': '4000', 'soni__4': '5', 'nomi__4': 'HB qalam', 'status__4': 'kelgan', 'summasi__5': '100 000', 'num__5': '6', 'narxi__5': '20 000', 'soni__5': '5', 'nomi__5': '607 banka ruchka 40 li', 'status__5': 'kelgan', 'summasi__6': '36 000', 'num__6': '7', 'narxi__6': '9000', 'soni__6': '40', 'nomi__6': 'tetrad qalin', 'status__6': 'kelgan', 'summasi__7': '30 000', 'num__7': '8', 'narxi__7': '6000', 'soni__7': '5', 'nomi__7': '2 tomonlama  sqoch', 'status__7': 'kelgan', 'summasi__8': '60 000', 'num__8': '9' ... 698 parameters truncated ... 'nomi__124': 'rangli bor 10li', 'status__124': 'kelgan', 'summasi__125': '30 000', 'num__125': '78', 'narxi__125': '1 000', 'soni__125': '30 шт', 'nomi__125': 'kist donali', 'status__125': 'kelgan', 'summasi__126': '200 000', 'num__126': '79', 'narxi__126': '200 000', 'soni__126': '1', 'nomi__126': 'Sveto Copy', 'status__126': 'kelgan', 'summasi__127': '300 000', 'num__127': '80', 'narxi__127': '10 000', 'soni__127': '30 шт', 'nomi__127': '204 12 plamaster', 'status__127': 'kelgan', 'summasi__128': '120 000', 'num__128': '81', 'narxi__128': '30 000', 'soni__128': '4 пачка', 'nomi__128': 'tetrad #,=', 'status__128': 'kelgan', 'summasi__129': '320 000', 'num__129': '82', 'narxi__129': '10 000', 'soni__129': '32 шт', 'nomi__129': '6 guash', 'status__129': 'kelgan', 'summasi__130': '40 000', 'num__130': '83', 'narxi__130': '8   000', 'soni__130': '5 пачка', 'nomi__130': 'A gel ruchka 6 li', 'status__130': 'kelgan', 'summasi__131': None, 'num__131': '1', 'narxi__131': None, 'soni__131': '200', 'nomi__131': 'Ручка простой', 'status__131': 'kerak', 'summasi__132': None, 'num__132': '2', 'narxi__132': None, 'soni__132': '5', 'nomi__132': 'белый лист', 'status__132': None}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2024-12-28 10:37:30,096 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2024-12-28 10:37:30,203 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:37:30,338 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2024-12-28 10:37:45,328 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2024-12-28 10:37:45,333 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:37:45,501 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2024-12-28 10:37:50,387 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2024-12-28 10:37:50,388 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:37:50,596 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2024-12-28 10:37:54,216 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2024-12-28 10:37:54,218 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:37:54,589 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2024-12-28 10:37:58,876 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2024-12-28 10:37:58,879 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:37:59,744 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2024-12-28 10:38:09,087 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2024-12-28 10:38:09,090 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:38:10,623 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2024-12-28 10:38:14,410 - ETL_Logger - INFO | [nps] data successfully extracted
+2024-12-28 10:38:14,413 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:38:14,849 - ETL_Logger - INFO | [nps] data successfully loaded
+2024-12-28 10:38:18,253 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2024-12-28 10:38:18,254 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:38:18,372 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2024-12-28 10:38:22,001 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2024-12-28 10:38:22,002 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:38:22,113 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2024-12-28 10:38:27,624 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2024-12-28 10:38:27,628 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:38:27,780 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2024-12-28 10:38:32,972 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2024-12-28 10:38:32,977 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:38:33,147 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2024-12-28 10:38:45,410 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2024-12-28 10:38:45,415 - ETL_Logger - INFO | Database Connection Successful
+2024-12-28 10:38:46,623 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 11980 characters truncated ... )s), (%(num__132)s, %(nomi__132)s, %(narxi__132)s, %(soni__132)s, %(summasi__132)s, %(status__132)s)]
+[parameters: {'soni__0': '2', 'nomi__0': 'Ozbekiston xaritasi', 'summasi__0': '14000', 'num__0': '1', 'status__0': 'kelgan', 'narxi__0': '7000', 'soni__1': '2', 'nomi__1': 'Dunyo xaritasi', 'summasi__1': '14000', 'num__1': '2', 'status__1': 'kelgan', 'narxi__1': '7000', 'soni__2': '30', 'nomi__2': 'Penal ogil', 'summasi__2': '330 000', 'num__2': '3', 'status__2': 'kelgan', 'narxi__2': '11000', 'soni__3': '30', 'nomi__3': 'penal qiz', 'summasi__3': '330 000', 'num__3': '4', 'status__3': 'kelgan', 'narxi__3': '11000', 'soni__4': '5', 'nomi__4': 'HB qalam', 'summasi__4': '20 000', 'num__4': '5', 'status__4': 'kelgan', 'narxi__4': '4000', 'soni__5': '5', 'nomi__5': '607 banka ruchka 40 li', 'summasi__5': '100 000', 'num__5': '6', 'status__5': 'kelgan', 'narxi__5': '20 000', 'soni__6': '40', 'nomi__6': 'tetrad qalin', 'summasi__6': '36 000', 'num__6': '7', 'status__6': 'kelgan', 'narxi__6': '9000', 'soni__7': '5', 'nomi__7': '2 tomonlama  sqoch', 'summasi__7': '30 000', 'num__7': '8', 'status__7': 'kelgan', 'narxi__7': '6000', 'soni__8': '5', 'nomi__8': 'skripka' ... 698 parameters truncated ... 'status__124': 'kelgan', 'narxi__124': '3 500', 'soni__125': '30 шт', 'nomi__125': 'kist donali', 'summasi__125': '30 000', 'num__125': '78', 'status__125': 'kelgan', 'narxi__125': '1 000', 'soni__126': '1', 'nomi__126': 'Sveto Copy', 'summasi__126': '200 000', 'num__126': '79', 'status__126': 'kelgan', 'narxi__126': '200 000', 'soni__127': '30 шт', 'nomi__127': '204 12 plamaster', 'summasi__127': '300 000', 'num__127': '80', 'status__127': 'kelgan', 'narxi__127': '10 000', 'soni__128': '4 пачка', 'nomi__128': 'tetrad #,=', 'summasi__128': '120 000', 'num__128': '81', 'status__128': 'kelgan', 'narxi__128': '30 000', 'soni__129': '32 шт', 'nomi__129': '6 guash', 'summasi__129': '320 000', 'num__129': '82', 'status__129': 'kelgan', 'narxi__129': '10 000', 'soni__130': '5 пачка', 'nomi__130': 'A gel ruchka 6 li', 'summasi__130': '40 000', 'num__130': '83', 'status__130': 'kelgan', 'narxi__130': '8   000', 'soni__131': '200', 'nomi__131': 'Ручка простой', 'summasi__131': None, 'num__131': '1', 'status__131': 'kerak', 'narxi__131': None, 'soni__132': '5', 'nomi__132': 'белый лист', 'summasi__132': None, 'num__132': '2', 'status__132': None, 'narxi__132': None}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-04 12:42:48,229 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-04 12:42:48,343 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:42:48,612 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-04 12:43:04,779 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-04 12:43:04,781 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:04,907 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-04 12:43:10,717 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-04 12:43:10,718 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:10,842 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-04 12:43:15,555 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-04 12:43:15,556 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:15,740 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-04 12:43:21,906 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-04 12:43:21,907 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:23,000 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-04 12:43:32,786 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-04 12:43:32,788 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:33,634 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-04 12:43:38,747 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-04 12:43:38,748 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:38,875 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-04 12:43:40,637 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-04 12:43:40,639 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:40,733 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-04 12:43:44,480 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-04 12:43:44,481 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:44,618 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-04 12:43:50,883 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-04 12:43:50,884 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:51,026 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-04 12:43:55,606 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2025-01-04 12:43:55,607 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:43:55,738 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2025-01-04 12:44:09,392 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-04 12:44:09,394 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:44:09,839 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 11980 characters truncated ... )s), (%(num__132)s, %(nomi__132)s, %(narxi__132)s, %(soni__132)s, %(summasi__132)s, %(status__132)s)]
+[parameters: {'summasi__0': '14000', 'narxi__0': '7000', 'soni__0': '2', 'status__0': 'kelgan', 'nomi__0': 'Ozbekiston xaritasi', 'num__0': '1', 'summasi__1': '14000', 'narxi__1': '7000', 'soni__1': '2', 'status__1': 'kelgan', 'nomi__1': 'Dunyo xaritasi', 'num__1': '2', 'summasi__2': '330 000', 'narxi__2': '11000', 'soni__2': '30', 'status__2': 'kelgan', 'nomi__2': 'Penal ogil', 'num__2': '3', 'summasi__3': '330 000', 'narxi__3': '11000', 'soni__3': '30', 'status__3': 'kelgan', 'nomi__3': 'penal qiz', 'num__3': '4', 'summasi__4': '20 000', 'narxi__4': '4000', 'soni__4': '5', 'status__4': 'kelgan', 'nomi__4': 'HB qalam', 'num__4': '5', 'summasi__5': '100 000', 'narxi__5': '20 000', 'soni__5': '5', 'status__5': 'kelgan', 'nomi__5': '607 banka ruchka 40 li', 'num__5': '6', 'summasi__6': '36 000', 'narxi__6': '9000', 'soni__6': '40', 'status__6': 'kelgan', 'nomi__6': 'tetrad qalin', 'num__6': '7', 'summasi__7': '30 000', 'narxi__7': '6000', 'soni__7': '5', 'status__7': 'kelgan', 'nomi__7': '2 tomonlama  sqoch', 'num__7': '8', 'summasi__8': '60 000', 'narxi__8': '12000' ... 698 parameters truncated ... 'nomi__124': 'rangli bor 10li', 'num__124': '77', 'summasi__125': '30 000', 'narxi__125': '1 000', 'soni__125': '30 шт', 'status__125': 'kelgan', 'nomi__125': 'kist donali', 'num__125': '78', 'summasi__126': '200 000', 'narxi__126': '200 000', 'soni__126': '1', 'status__126': 'kelgan', 'nomi__126': 'Sveto Copy', 'num__126': '79', 'summasi__127': '300 000', 'narxi__127': '10 000', 'soni__127': '30 шт', 'status__127': 'kelgan', 'nomi__127': '204 12 plamaster', 'num__127': '80', 'summasi__128': '120 000', 'narxi__128': '30 000', 'soni__128': '4 пачка', 'status__128': 'kelgan', 'nomi__128': 'tetrad #,=', 'num__128': '81', 'summasi__129': '320 000', 'narxi__129': '10 000', 'soni__129': '32 шт', 'status__129': 'kelgan', 'nomi__129': '6 guash', 'num__129': '82', 'summasi__130': '40 000', 'narxi__130': '8   000', 'soni__130': '5 пачка', 'status__130': 'kelgan', 'nomi__130': 'A gel ruchka 6 li', 'num__130': '83', 'summasi__131': None, 'narxi__131': None, 'soni__131': '200', 'status__131': 'kerak', 'nomi__131': 'Ручка простой', 'num__131': '1', 'summasi__132': None, 'narxi__132': None, 'soni__132': '5', 'status__132': None, 'nomi__132': 'белый лист', 'num__132': '2'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-04 12:45:43,592 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-04 12:45:43,696 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:45:43,868 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-04 12:45:58,868 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-04 12:45:58,871 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:45:58,984 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-04 12:46:04,373 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-04 12:46:04,375 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:04,516 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-04 12:46:08,114 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-04 12:46:08,114 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:08,252 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-04 12:46:13,324 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-04 12:46:13,325 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:13,545 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-04 12:46:23,535 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-04 12:46:23,536 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:23,914 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-04 12:46:29,268 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-04 12:46:29,269 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:29,354 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-04 12:46:32,056 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-04 12:46:32,059 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:33,676 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-04 12:46:37,190 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-04 12:46:37,192 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:37,646 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-04 12:46:42,343 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-04 12:46:42,343 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:42,923 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-04 12:46:48,353 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2025-01-04 12:46:48,354 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:46:49,992 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2025-01-04 12:47:03,256 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-04 12:47:03,257 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:47:06,440 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 11980 characters truncated ... )s), (%(num__132)s, %(nomi__132)s, %(narxi__132)s, %(soni__132)s, %(summasi__132)s, %(status__132)s)]
+[parameters: {'nomi__0': 'Ozbekiston xaritasi', 'narxi__0': '7000', 'summasi__0': '14000', 'status__0': 'kelgan', 'soni__0': '2', 'num__0': '1', 'nomi__1': 'Dunyo xaritasi', 'narxi__1': '7000', 'summasi__1': '14000', 'status__1': 'kelgan', 'soni__1': '2', 'num__1': '2', 'nomi__2': 'Penal ogil', 'narxi__2': '11000', 'summasi__2': '330 000', 'status__2': 'kelgan', 'soni__2': '30', 'num__2': '3', 'nomi__3': 'penal qiz', 'narxi__3': '11000', 'summasi__3': '330 000', 'status__3': 'kelgan', 'soni__3': '30', 'num__3': '4', 'nomi__4': 'HB qalam', 'narxi__4': '4000', 'summasi__4': '20 000', 'status__4': 'kelgan', 'soni__4': '5', 'num__4': '5', 'nomi__5': '607 banka ruchka 40 li', 'narxi__5': '20 000', 'summasi__5': '100 000', 'status__5': 'kelgan', 'soni__5': '5', 'num__5': '6', 'nomi__6': 'tetrad qalin', 'narxi__6': '9000', 'summasi__6': '36 000', 'status__6': 'kelgan', 'soni__6': '40', 'num__6': '7', 'nomi__7': '2 tomonlama  sqoch', 'narxi__7': '6000', 'summasi__7': '30 000', 'status__7': 'kelgan', 'soni__7': '5', 'num__7': '8', 'nomi__8': 'skripka', 'narxi__8': '12000' ... 698 parameters truncated ... 'soni__124': '5 пачка', 'num__124': '77', 'nomi__125': 'kist donali', 'narxi__125': '1 000', 'summasi__125': '30 000', 'status__125': 'kelgan', 'soni__125': '30 шт', 'num__125': '78', 'nomi__126': 'Sveto Copy', 'narxi__126': '200 000', 'summasi__126': '200 000', 'status__126': 'kelgan', 'soni__126': '1', 'num__126': '79', 'nomi__127': '204 12 plamaster', 'narxi__127': '10 000', 'summasi__127': '300 000', 'status__127': 'kelgan', 'soni__127': '30 шт', 'num__127': '80', 'nomi__128': 'tetrad #,=', 'narxi__128': '30 000', 'summasi__128': '120 000', 'status__128': 'kelgan', 'soni__128': '4 пачка', 'num__128': '81', 'nomi__129': '6 guash', 'narxi__129': '10 000', 'summasi__129': '320 000', 'status__129': 'kelgan', 'soni__129': '32 шт', 'num__129': '82', 'nomi__130': 'A gel ruchka 6 li', 'narxi__130': '8   000', 'summasi__130': '40 000', 'status__130': 'kelgan', 'soni__130': '5 пачка', 'num__130': '83', 'nomi__131': 'Ручка простой', 'narxi__131': None, 'summasi__131': None, 'status__131': 'kerak', 'soni__131': '200', 'num__131': '1', 'nomi__132': 'белый лист', 'narxi__132': None, 'summasi__132': None, 'status__132': None, 'soni__132': '5', 'num__132': '2'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-04 12:49:30,902 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-04 12:49:30,980 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:49:31,132 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-04 12:49:46,876 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-04 12:49:46,876 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:49:46,998 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-04 12:49:52,043 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-04 12:49:52,044 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:49:52,167 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-04 12:49:55,904 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-04 12:49:55,906 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:49:56,026 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-04 12:50:02,382 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-04 12:50:02,383 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:50:02,722 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-04 12:50:11,292 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-04 12:50:11,294 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:50:11,584 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-04 12:50:16,530 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-04 12:50:16,531 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:50:16,630 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-04 12:50:19,541 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-04 12:50:19,542 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:50:19,662 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-04 12:50:22,690 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-04 12:50:22,691 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:50:22,795 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-04 12:50:27,721 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-04 12:50:27,722 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:50:27,865 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-04 12:50:32,985 - ETL_Logger - INFO | [n_pochemuchka] data successfully extracted
+2025-01-04 12:50:32,986 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:50:33,113 - ETL_Logger - INFO | [n_pochemuchka] data successfully loaded
+2025-01-04 12:50:46,869 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-04 12:50:46,872 - ETL_Logger - INFO | Database Connection Successful
+2025-01-04 12:50:47,281 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 11980 characters truncated ... )s), (%(num__132)s, %(nomi__132)s, %(narxi__132)s, %(soni__132)s, %(summasi__132)s, %(status__132)s)]
+[parameters: {'soni__0': '2', 'nomi__0': 'Ozbekiston xaritasi', 'status__0': 'kelgan', 'summasi__0': '14000', 'num__0': '1', 'narxi__0': '7000', 'soni__1': '2', 'nomi__1': 'Dunyo xaritasi', 'status__1': 'kelgan', 'summasi__1': '14000', 'num__1': '2', 'narxi__1': '7000', 'soni__2': '30', 'nomi__2': 'Penal ogil', 'status__2': 'kelgan', 'summasi__2': '330 000', 'num__2': '3', 'narxi__2': '11000', 'soni__3': '30', 'nomi__3': 'penal qiz', 'status__3': 'kelgan', 'summasi__3': '330 000', 'num__3': '4', 'narxi__3': '11000', 'soni__4': '5', 'nomi__4': 'HB qalam', 'status__4': 'kelgan', 'summasi__4': '20 000', 'num__4': '5', 'narxi__4': '4000', 'soni__5': '5', 'nomi__5': '607 banka ruchka 40 li', 'status__5': 'kelgan', 'summasi__5': '100 000', 'num__5': '6', 'narxi__5': '20 000', 'soni__6': '40', 'nomi__6': 'tetrad qalin', 'status__6': 'kelgan', 'summasi__6': '36 000', 'num__6': '7', 'narxi__6': '9000', 'soni__7': '5', 'nomi__7': '2 tomonlama  sqoch', 'status__7': 'kelgan', 'summasi__7': '30 000', 'num__7': '8', 'narxi__7': '6000', 'soni__8': '5', 'nomi__8': 'skripka' ... 698 parameters truncated ... 'num__124': '77', 'narxi__124': '3 500', 'soni__125': '30 шт', 'nomi__125': 'kist donali', 'status__125': 'kelgan', 'summasi__125': '30 000', 'num__125': '78', 'narxi__125': '1 000', 'soni__126': '1', 'nomi__126': 'Sveto Copy', 'status__126': 'kelgan', 'summasi__126': '200 000', 'num__126': '79', 'narxi__126': '200 000', 'soni__127': '30 шт', 'nomi__127': '204 12 plamaster', 'status__127': 'kelgan', 'summasi__127': '300 000', 'num__127': '80', 'narxi__127': '10 000', 'soni__128': '4 пачка', 'nomi__128': 'tetrad #,=', 'status__128': 'kelgan', 'summasi__128': '120 000', 'num__128': '81', 'narxi__128': '30 000', 'soni__129': '32 шт', 'nomi__129': '6 guash', 'status__129': 'kelgan', 'summasi__129': '320 000', 'num__129': '82', 'narxi__129': '10 000', 'soni__130': '5 пачка', 'nomi__130': 'A gel ruchka 6 li', 'status__130': 'kelgan', 'summasi__130': '40 000', 'num__130': '83', 'narxi__130': '8   000', 'soni__131': '200', 'nomi__131': 'Ручка простой', 'status__131': 'kerak', 'summasi__131': None, 'num__131': '1', 'narxi__131': None, 'soni__132': '5', 'nomi__132': 'белый лист', 'status__132': None, 'summasi__132': None, 'num__132': '2', 'narxi__132': None}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-06 10:41:51,924 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-06 10:41:52,006 - ETL_Logger - INFO | Database Connection Successful
+2025-01-06 10:41:52,189 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-06 10:42:08,369 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-06 10:42:08,372 - ETL_Logger - INFO | Database Connection Successful
+2025-01-06 10:42:08,495 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-06 10:42:12,453 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-06 10:42:12,454 - ETL_Logger - INFO | Database Connection Successful
+2025-01-06 10:42:12,902 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-08 10:38:27,635 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-08 10:38:27,740 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:38:27,908 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-08 10:38:43,646 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-08 10:38:43,648 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:38:43,780 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-08 10:38:53,527 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-08 10:38:53,528 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:38:53,698 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-08 10:38:58,156 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-08 10:38:58,157 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:38:58,620 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-08 10:39:06,208 - ETL_Logger - ERROR | error gspread connection: APIError: [500]: Internal error encountered.
+2025-01-08 10:39:06,210 - ETL_Logger - ERROR | error while extracting [psixolog test] data: 'NoneType' object has no attribute 'get_worksheet'
+2025-01-08 10:39:11,857 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-08 10:39:11,858 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:39:12,213 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-08 10:39:17,660 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-08 10:39:17,661 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:39:18,001 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-08 10:39:21,231 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-08 10:39:21,231 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:39:21,340 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-08 10:39:24,622 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-08 10:39:24,623 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:39:24,734 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-08 10:39:31,098 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-08 10:39:31,098 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:39:31,256 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-08 10:39:35,192 - ETL_Logger - ERROR | error while extracting [n_pochemuchka] data: could not convert string to float: 'хорошее'
+2025-01-08 10:39:43,894 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-08 10:39:43,895 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 10:39:44,896 - ETL_Logger - ERROR | error while loading [n_kutubxona] data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "330 000"
+LINE 1: ...0', 'kelgan'), ('3', 'Penal ogil', '11000', '30', '330 000',...
+                                                             ^
+
+[SQL: INSERT INTO n_kutubxona_kerakli_konstovar (num, nomi, narxi, soni, summasi, status) VALUES (%(num__0)s, %(nomi__0)s, %(narxi__0)s, %(soni__0)s, %(summasi__0)s, %(status__0)s), (%(num__1)s, %(nomi__1)s, %(narxi__1)s, %(soni__1)s, %(summasi__1)s, %(sta ... 11980 characters truncated ... )s), (%(num__132)s, %(nomi__132)s, %(narxi__132)s, %(soni__132)s, %(summasi__132)s, %(status__132)s)]
+[parameters: {'status__0': 'kelgan', 'narxi__0': '7000', 'nomi__0': 'Ozbekiston xaritasi', 'soni__0': '2', 'summasi__0': '14000', 'num__0': '1', 'status__1': 'kelgan', 'narxi__1': '7000', 'nomi__1': 'Dunyo xaritasi', 'soni__1': '2', 'summasi__1': '14000', 'num__1': '2', 'status__2': 'kelgan', 'narxi__2': '11000', 'nomi__2': 'Penal ogil', 'soni__2': '30', 'summasi__2': '330 000', 'num__2': '3', 'status__3': 'kelgan', 'narxi__3': '11000', 'nomi__3': 'penal qiz', 'soni__3': '30', 'summasi__3': '330 000', 'num__3': '4', 'status__4': 'kelgan', 'narxi__4': '4000', 'nomi__4': 'HB qalam', 'soni__4': '5', 'summasi__4': '20 000', 'num__4': '5', 'status__5': 'kelgan', 'narxi__5': '20 000', 'nomi__5': '607 banka ruchka 40 li', 'soni__5': '5', 'summasi__5': '100 000', 'num__5': '6', 'status__6': 'kelgan', 'narxi__6': '9000', 'nomi__6': 'tetrad qalin', 'soni__6': '40', 'summasi__6': '36 000', 'num__6': '7', 'status__7': 'kelgan', 'narxi__7': '6000', 'nomi__7': '2 tomonlama  sqoch', 'soni__7': '5', 'summasi__7': '30 000', 'num__7': '8', 'status__8': 'kelgan', 'narxi__8': '12000' ... 698 parameters truncated ... 'summasi__124': '17 500', 'num__124': '77', 'status__125': 'kelgan', 'narxi__125': '1 000', 'nomi__125': 'kist donali', 'soni__125': '30 шт', 'summasi__125': '30 000', 'num__125': '78', 'status__126': 'kelgan', 'narxi__126': '200 000', 'nomi__126': 'Sveto Copy', 'soni__126': '1', 'summasi__126': '200 000', 'num__126': '79', 'status__127': 'kelgan', 'narxi__127': '10 000', 'nomi__127': '204 12 plamaster', 'soni__127': '30 шт', 'summasi__127': '300 000', 'num__127': '80', 'status__128': 'kelgan', 'narxi__128': '30 000', 'nomi__128': 'tetrad #,=', 'soni__128': '4 пачка', 'summasi__128': '120 000', 'num__128': '81', 'status__129': 'kelgan', 'narxi__129': '10 000', 'nomi__129': '6 guash', 'soni__129': '32 шт', 'summasi__129': '320 000', 'num__129': '82', 'status__130': 'kelgan', 'narxi__130': '8   000', 'nomi__130': 'A gel ruchka 6 li', 'soni__130': '5 пачка', 'summasi__130': '40 000', 'num__130': '83', 'status__131': 'kerak', 'narxi__131': None, 'nomi__131': 'Ручка простой', 'soni__131': '200', 'summasi__131': None, 'num__131': '1', 'status__132': None, 'narxi__132': None, 'nomi__132': 'белый лист', 'soni__132': '5', 'summasi__132': None, 'num__132': '2'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-08 12:30:25,956 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-08 12:30:26,064 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:30:26,290 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-08 12:30:40,566 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-08 12:30:40,568 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:30:40,721 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-08 12:30:49,985 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-08 12:30:49,988 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:30:50,467 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-08 12:30:59,343 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-08 12:30:59,345 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:30:59,482 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-08 12:31:05,375 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-08 12:31:05,376 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:31:06,273 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-08 12:31:11,898 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-08 12:31:11,899 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:31:12,222 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-08 12:31:17,543 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-08 12:31:17,544 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:31:17,639 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-08 12:31:20,877 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-08 12:31:20,878 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:31:21,131 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-08 12:31:23,749 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-08 12:31:23,751 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:31:23,838 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-08 12:31:30,134 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-08 12:31:30,135 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:31:30,281 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-08 12:31:33,601 - ETL_Logger - ERROR | error while extracting [n_pochemuchka] data: could not convert string to float: 'К-1'
+2025-01-08 12:31:46,305 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-08 12:31:46,308 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:31:47,876 - ETL_Logger - INFO | [n_kutubxona] data successfully loaded
+2025-01-08 12:31:53,856 - ETL_Logger - INFO | [shifokor qabul] data successfully extracted
+2025-01-08 12:31:53,856 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 12:31:54,210 - ETL_Logger - INFO | [shifokor_qabul] data successfully loaded
+2025-01-08 14:01:25,415 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-08 14:01:25,504 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:01:25,651 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-08 14:01:50,754 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-08 14:01:50,756 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:01:50,931 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-08 14:01:56,336 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-08 14:01:56,338 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:01:56,452 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-08 14:01:59,991 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-08 14:01:59,992 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:02:00,112 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-08 14:02:05,937 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-08 14:02:05,939 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:02:06,157 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-08 14:02:16,493 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-08 14:02:16,495 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:02:16,832 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-08 14:02:22,836 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-08 14:02:22,837 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:02:22,945 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-08 14:02:26,142 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-08 14:02:26,144 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:02:26,244 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-08 14:02:29,339 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-08 14:02:29,340 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:02:29,733 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-08 14:02:35,563 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-08 14:02:35,565 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:02:35,725 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-08 14:02:39,981 - ETL_Logger - ERROR | error while extracting [n_pochemuchka] data: could not convert string to float: 'К-1'
+2025-01-08 14:02:52,377 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-08 14:02:52,378 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:03:00,184 - ETL_Logger - INFO | [n_kutubxona] data successfully loaded
+2025-01-08 14:03:04,107 - ETL_Logger - INFO | [shifokor qabul] data successfully extracted
+2025-01-08 14:03:04,108 - ETL_Logger - INFO | Database Connection Successful
+2025-01-08 14:03:04,219 - ETL_Logger - INFO | [shifokor_qabul] data successfully loaded
+2025-01-10 08:36:56,829 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-10 08:36:56,907 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:36:57,591 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-10 08:37:13,775 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-10 08:37:13,777 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:13,956 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-10 08:37:19,807 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-10 08:37:19,808 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:20,017 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-10 08:37:23,348 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-10 08:37:23,350 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:23,695 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-10 08:37:28,435 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-10 08:37:28,437 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:28,809 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-10 08:37:38,439 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-10 08:37:38,441 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:39,066 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-10 08:37:44,429 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-10 08:37:44,431 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:44,564 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-10 08:37:47,602 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-10 08:37:47,604 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:49,673 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-10 08:37:52,835 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-10 08:37:52,836 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:53,066 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-10 08:37:59,335 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-10 08:37:59,337 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:37:59,597 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-10 08:38:04,405 - ETL_Logger - ERROR | error while extracting [n_pochemuchka] data: could not convert string to float: 'К-1'
+2025-01-10 08:38:17,847 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-10 08:38:17,850 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:38:18,784 - ETL_Logger - INFO | [n_kutubxona] data successfully loaded
+2025-01-10 08:38:21,891 - ETL_Logger - INFO | [shifokor qabul] data successfully extracted
+2025-01-10 08:38:21,892 - ETL_Logger - INFO | Database Connection Successful
+2025-01-10 08:38:22,041 - ETL_Logger - INFO | [shifokor_qabul] data successfully loaded
+2025-01-11 10:37:26,488 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-11 10:37:26,637 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:37:26,836 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-11 10:37:42,439 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-11 10:37:42,441 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:37:42,661 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-11 10:37:48,845 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-11 10:37:48,847 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:37:49,483 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-11 10:37:52,692 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-11 10:37:52,692 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:37:52,938 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-11 10:37:57,838 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-11 10:37:57,839 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:37:58,127 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-11 10:38:07,463 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-11 10:38:07,464 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:38:08,052 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-11 10:38:13,487 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-11 10:38:13,487 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:38:13,619 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-11 10:38:15,992 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-11 10:38:15,993 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:38:16,156 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-11 10:38:19,302 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-11 10:38:19,303 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:38:19,428 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-11 10:38:24,517 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-11 10:38:24,518 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:38:24,893 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-11 10:38:26,594 - ETL_Logger - ERROR | error while extracting [n_pochemuchka] data: could not convert string to float: 'К-1'
+2025-01-11 10:38:38,857 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-11 10:38:38,858 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:38:39,481 - ETL_Logger - INFO | [n_kutubxona] data successfully loaded
+2025-01-11 10:38:41,229 - ETL_Logger - INFO | [shifokor qabul] data successfully extracted
+2025-01-11 10:38:41,230 - ETL_Logger - INFO | Database Connection Successful
+2025-01-11 10:38:41,406 - ETL_Logger - INFO | [shifokor_qabul] data successfully loaded
+2025-01-13 08:56:03,524 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-13 08:56:03,663 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:03,858 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-13 08:56:16,734 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-13 08:56:16,736 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:16,910 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-13 08:56:22,791 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-13 08:56:22,791 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:23,208 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-13 08:56:25,418 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-13 08:56:25,419 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:25,559 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-13 08:56:30,799 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-13 08:56:30,800 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:31,091 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-13 08:56:40,017 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-13 08:56:40,021 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:40,516 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-13 08:56:43,443 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-13 08:56:43,444 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:43,934 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-13 08:56:45,653 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-13 08:56:45,654 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:45,775 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-13 08:56:48,310 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-13 08:56:48,312 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:48,741 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-13 08:56:52,821 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-13 08:56:52,822 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:56:52,973 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-13 08:56:55,286 - ETL_Logger - ERROR | error while extracting [n_pochemuchka] data: could not convert string to float: 'К-1'
+2025-01-13 08:57:01,421 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-13 08:57:01,422 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:57:01,862 - ETL_Logger - INFO | [n_kutubxona] data successfully loaded
+2025-01-13 08:57:04,186 - ETL_Logger - INFO | [shifokor qabul] data successfully extracted
+2025-01-13 08:57:04,188 - ETL_Logger - INFO | Database Connection Successful
+2025-01-13 08:57:04,396 - ETL_Logger - INFO | [shifokor_qabul] data successfully loaded
+2025-01-15 11:31:58,014 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-15 11:31:58,122 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:31:58,289 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-15 11:32:12,258 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-15 11:32:12,259 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:12,403 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-15 11:32:17,553 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-15 11:32:17,555 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:17,726 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-15 11:32:20,091 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-15 11:32:20,092 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:20,240 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-15 11:32:23,232 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-15 11:32:23,233 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:24,013 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-15 11:32:33,390 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-15 11:32:33,392 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:34,365 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-15 11:32:37,617 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-15 11:32:37,618 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:37,712 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-15 11:32:39,526 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-15 11:32:39,527 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:39,615 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-15 11:32:41,711 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-15 11:32:41,711 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:41,820 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-15 11:32:47,481 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-15 11:32:47,482 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:47,688 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-15 11:32:49,398 - ETL_Logger - ERROR | error while extracting [n_pochemuchka] data: could not convert string to float: 'К-1'
+2025-01-15 11:32:55,480 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-15 11:32:55,481 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:55,980 - ETL_Logger - INFO | [n_kutubxona] data successfully loaded
+2025-01-15 11:32:58,955 - ETL_Logger - INFO | [shifokor qabul] data successfully extracted
+2025-01-15 11:32:58,956 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 11:32:59,496 - ETL_Logger - INFO | [shifokor_qabul] data successfully loaded
+2025-01-15 13:03:50,440 - ETL_Logger - INFO | [stipendiya] data successfully extracted
+2025-01-15 13:03:50,516 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:03:50,770 - ETL_Logger - INFO | [stipendiya] data successfully loaded
+2025-01-15 13:04:04,211 - ETL_Logger - INFO | [maktab xodimlar] data successfully extracted
+2025-01-15 13:04:04,211 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:04,654 - ETL_Logger - INFO | [maktab xodimlar] data successfully loaded
+2025-01-15 13:04:09,313 - ETL_Logger - INFO | [pochemuchkadb] data successfully extracted
+2025-01-15 13:04:09,313 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:09,851 - ETL_Logger - INFO | [pochemuchkadb] data successfully loaded
+2025-01-15 13:04:12,018 - ETL_Logger - INFO | [dars jadvali] data successfully extracted
+2025-01-15 13:04:12,019 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:12,158 - ETL_Logger - INFO | [dars jadvali] data successfully loaded
+2025-01-15 13:04:17,490 - ETL_Logger - INFO | [psixolog test] data successfully extracted
+2025-01-15 13:04:17,491 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:17,757 - ETL_Logger - INFO | [psixolog test] data successfully loaded
+2025-01-15 13:04:27,083 - ETL_Logger - INFO | [kutubxona] data successfully extracted
+2025-01-15 13:04:27,085 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:27,397 - ETL_Logger - INFO | [kutubxona] data successfully loaded
+2025-01-15 13:04:31,515 - ETL_Logger - INFO | [nps] data successfully extracted
+2025-01-15 13:04:31,516 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:31,615 - ETL_Logger - INFO | [nps] data successfully loaded
+2025-01-15 13:04:34,047 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully extracted
+2025-01-15 13:04:34,048 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:34,171 - ETL_Logger - INFO | [tugaraklar_reytingi_data] data successfully loaded
+2025-01-15 13:04:36,284 - ETL_Logger - INFO | [maktab tadbirlar] data successfully extracted
+2025-01-15 13:04:36,285 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:36,370 - ETL_Logger - INFO | [maktab tadbirlar] data successfully loaded
+2025-01-15 13:04:44,698 - ETL_Logger - INFO | [dietolog] data successfully extracted
+2025-01-15 13:04:44,699 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:45,334 - ETL_Logger - INFO | [dietolog] data successfully loaded
+2025-01-15 13:04:47,047 - ETL_Logger - ERROR | error while extracting [n_pochemuchka] data: could not convert string to float: 'К-1'
+2025-01-15 13:04:57,758 - ETL_Logger - INFO | [n_kutubxona] data successfully extracted
+2025-01-15 13:04:57,759 - ETL_Logger - INFO | Database Connection Successful
+2025-01-15 13:04:58,220 - ETL_Logger - INFO | [n_kutubxona] data successfully loaded
+2025-01-15 13:05:01,710 - ETL_Logger - ERROR | error while extracting [shifokor_qabul] data: APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:45212930980'.
