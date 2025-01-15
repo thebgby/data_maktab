@@ -31,5 +31,5 @@ def extract_data(info: dict):
 
     df["sana"] = df["sana"].str.replace(",", ".", regex=False)
     df["sana"] = pd.to_datetime(df["sana"], dayfirst=True, errors="coerce", format="%d.%m.%Y")
-    print(df)
+   # print(df)
     return df
