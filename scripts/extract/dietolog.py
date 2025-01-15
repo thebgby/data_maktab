@@ -6,6 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'
 
 import pandas as pd
 from config import gs_connection
+import time
 
 def extract_data(info: dict):
     sheets_url = info["url"]
@@ -33,7 +34,7 @@ def extract_data(info: dict):
     df["sana"] = pd.to_datetime(df["sana"], dayfirst=True, errors="coerce", format="%d.%m.%Y")
     # print(df.shape)
     final_data["dietolog_students"] = df
-
+    time.sleep(5)
     #menu_school
     menu_school = sheets_conn.get_worksheet(1)
     menu_school_data = menu_school.get_values("A1:E")

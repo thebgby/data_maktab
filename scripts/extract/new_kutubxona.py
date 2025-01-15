@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'
 
 import pandas as pd
 from config import gs_connection
-
+import time
 def extract_data(info: dict):
     sheets_url = info["url"]
     sheets_conn = gs_connection(sheets_url)
@@ -31,7 +31,7 @@ def extract_data(info: dict):
     df = df[df.isna().sum(axis=1) < 5]
 
     final_data["n_kutubxona_yetishmaydigan_kitoblar"] = df
-
+    time.sleep(5)
     # sinflar kesimida
     worksheet = sheets_conn.get_worksheet(1)
     sheets_data = worksheet.get_values("A1:H")
@@ -53,7 +53,7 @@ def extract_data(info: dict):
     df = df[df.isna().sum(axis=1) < 7]
 
     final_data["n_kutubxona_sinflar_kesimida"] = df
-
+    time.sleep(5)
     # ijaradagi kitoblar
     worksheet = sheets_conn.get_worksheet(2)
     sheets_data = worksheet.get_values("A1:I")
@@ -96,7 +96,7 @@ def extract_data(info: dict):
     df = df[df.isna().sum(axis=1) < 5]
 
     final_data["n_kutubxona_pechat_qilinganlar"] = df
-
+    time.sleep(5)
     # berilgan konstovar
     worksheet = sheets_conn.get_worksheet(4)
     sheets_data = worksheet.get_values("A1:E")
@@ -142,7 +142,7 @@ def extract_data(info: dict):
 
 
     final_data["n_kutubxona_kerakli_konstovar"] = df
-
+    time.sleep(5)
     return final_data
 
 
