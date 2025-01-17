@@ -18,3 +18,4 @@ from .adminstratsiya import extract_data as adminstratsiya_extract
 from .psbaza import extract_data as psbaza_extract
 from .materialniy_atchot import extract_data as ma_extract
 from .printer_sheet import extract_data as printer_extract
+from .avtobus import extract_data as bus_extract

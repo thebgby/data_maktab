@@ -25,7 +25,7 @@ def extract_data(info: dict):
     sheets_conn = gs_connection(sheets_url)
     combined_df = pd.DataFrame()
 
-    for i in [10, 11, 12, 13]:
+    for i in [10, 11, 12, 13, 14]:
         worksheet = sheets_conn.get_worksheet(i)
         worksheet_data = worksheet.get_values("A4:H")
         columns = [

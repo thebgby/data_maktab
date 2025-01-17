@@ -18,3 +18,4 @@ from .adminstratsiya import load_data as adminstratsiya_load
 from .psbaza import load_data as psbaza_load
 from .materialniy_atchot import load_data as ma_load
 from .printer_sheet import load_data as printer_load
+from .avtobus import load_data as bus_load

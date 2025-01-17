@@ -98,3 +98,7 @@ materialniy_atchot = {
 printer_sheet = {
     "url": "https://docs.google.com/spreadsheets/d/1CTpm13fX2eg8915wMO_o3BQzFkIfX5B2Qz_v8r2Rxyo/edit?usp=sharing"
 }
+
+avtobus_sheet = {
+    "url": "https://docs.google.com/spreadsheets/d/1Cdc1CRBCgyFdJ9blEuq3nvvmPIxLhApP8zARy3aW4iA/edit?usp=sharing"
+}

@@ -314,3 +314,19 @@ if  not printer_data.empty:
         logger.info(f"[printer sheet] data successfully loaded")
     except Exception as e:
         logger.error(f"error while loading [printer sheet] data: {e}")
+
+
+#  avtobus sheet
+bus_data = None
+try:
+    bus_data = bus_extract(avtobus_sheet)
+    logger.info(f"[bus_sheet] data successfully extracted")
+except Exception as e:
+    logger.error(f"error while extracting [bus_sheet] data: {e}")
+
+if not bus_data.empty:
+    try:
+        bus_load(bus_data)
+        logger.info(f"[bus_sheet] data successfully loaded")
+    except Exception as e:
+        logger.error(f"error while loading [bus_sheet] data: {e}")
